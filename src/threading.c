@@ -7,7 +7,6 @@
 void *thread_func1()
 {
     logger(INFO, "Reading light sensor...\n");
-    sleep (1);
     while (1)
     {
         read_light_reading();
@@ -18,7 +17,6 @@ void *thread_func1()
 void *thread_func2()
 {
     logger(INFO, "Reading fan sensor...\n");
-    sleep (1);
     while (1)
     {
         read_fan_reading();
@@ -29,7 +27,6 @@ void *thread_func2()
 void *thread_func3()
 {
     logger(INFO, "Reading AC sensor...\n");
-    sleep (1);
     while (1)
     {
         read_ac_reading();
