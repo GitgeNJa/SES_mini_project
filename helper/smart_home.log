@@ -27,3 +27,591 @@
 [2025-03-30 18:04:48] [INFO] AC sensor value: 0.123457
 [2025-03-30 18:04:48] [INFO] Fan sensor value: 123.456000
 [2025-03-30 18:04:48] [INFO] Light sensor value: 20.234200
+[2025-04-06 18:33:45] [ERROR] 
+
+
+[2025-04-06 18:33:45] [ERROR] Welcome to Smart Home
+[2025-04-06 18:35:59] [ERROR] 
+
+
+[2025-04-06 18:35:59] [ERROR] Welcome to Smart Home
+[2025-04-06 18:38:15] [ERROR] 
+
+
+[2025-04-06 18:38:15] [ERROR] Welcome to Smart Home
+[2025-04-06 18:52:38] [ERROR] 
+
+
+[2025-04-06 18:52:38] [ERROR] Welcome to Smart Home
+[2025-04-06 18:52:38] [INFO] Mocking sensor readings...
+[2025-04-06 18:52:50] [ERROR] 
+
+
+[2025-04-06 18:52:50] [ERROR] Welcome to Smart Home
+[2025-04-06 18:52:50] [INFO] Mocking sensor readings...
+[2025-04-06 18:53:05] [ERROR] 
+
+
+[2025-04-06 18:53:05] [ERROR] Welcome to Smart Home
+[2025-04-06 18:53:05] [INFO] Mocking sensor readings...
+[2025-04-06 18:53:13] [ERROR] 
+
+
+[2025-04-06 18:53:13] [ERROR] Welcome to Smart Home
+[2025-04-06 18:53:13] [INFO] Reading light sensor...
+[2025-04-06 18:53:13] [INFO] Reading fan sensor...
+[2025-04-06 18:53:13] [INFO] Reading AC sensor...
+[2025-04-06 18:53:13] [INFO] AC sensor value: 1053.568604
+[2025-04-06 18:53:13] [INFO] Fan sensor value: 60.748661
+[2025-04-06 18:53:13] [INFO] Light sensor value: 7.086462
+[2025-04-06 18:53:14] [ERROR] Exiting...!
+[2025-04-06 18:53:16] [INFO] Light sensor value: 7.086462
+[2025-04-06 18:53:18] [INFO] Fan sensor value: 60.748661
+[2025-04-06 18:53:18] [ERROR] Exiting...!
+[2025-04-06 18:53:19] [INFO] Light sensor value: 7.086462
+[2025-04-06 18:53:22] [ERROR] Exiting...!
+[2025-04-06 18:53:22] [INFO] Light sensor value: 7.086462
+[2025-04-06 18:53:22] [ERROR] Exiting...!
+[2025-04-06 18:53:23] [INFO] AC sensor value: 1053.568604
+[2025-04-06 18:53:23] [INFO] Fan sensor value: 60.748661
+[2025-04-06 18:53:23] [ERROR] Exiting...!
+[2025-04-06 18:53:23] [INFO] Light sensor value: 7.086462
+[2025-04-06 18:53:23] [ERROR] Exiting...!
+[2025-04-06 18:53:45] [ERROR] 
+
+
+[2025-04-06 18:53:45] [ERROR] Welcome to Smart Home
+[2025-04-06 18:53:45] [INFO] Reading light sensor...
+[2025-04-06 18:53:45] [INFO] Reading fan sensor...
+[2025-04-06 18:53:45] [INFO] Reading AC sensor...
+[2025-04-06 18:53:45] [INFO] Fan sensor value: 60.748661
+[2025-04-06 18:53:45] [INFO] Light sensor value: 7.086462
+[2025-04-06 18:53:45] [INFO] AC sensor value: 1053.568604
+[2025-04-06 18:53:46] [ERROR] Exiting...!
+[2025-04-06 19:04:10] [ERROR] 
+
+
+[2025-04-06 19:04:10] [ERROR] Welcome to Smart Home
+[2025-04-06 19:04:10] [INFO] Reading light sensor...
+[2025-04-06 19:04:10] [INFO] Reading fan sensor...
+[2025-04-06 19:04:10] [INFO] Reading AC sensor...
+[2025-04-06 19:04:10] [INFO] Light sensor value: 7.086462
+[2025-04-06 19:04:10] [INFO] Fan sensor value: 60.748661
+[2025-04-06 19:04:10] [INFO] AC sensor value: 1053.568604
+[2025-04-06 19:04:12] [ERROR] Exiting...!
+[2025-04-06 19:12:43] [ERROR] 
+
+
+[2025-04-06 19:12:43] [ERROR] Welcome to Smart Home
+[2025-04-06 19:12:43] [INFO] Reading light sensor...
+[2025-04-06 19:12:43] [ERROR] Failed to create fan thread
+[2025-04-06 19:12:43] [INFO] Reading fan sensor...
+[2025-04-06 19:13:31] [ERROR] 
+
+
+[2025-04-06 19:13:31] [ERROR] Welcome to Smart Home
+[2025-04-06 19:13:31] [ERROR] Failed to create fan thread
+[2025-04-06 19:13:31] [INFO] Reading light sensor...
+[2025-04-06 19:13:31] [INFO] Reading fan sensor...
+[2025-04-06 19:13:34] [ERROR] 
+
+
+[2025-04-06 19:13:34] [ERROR] Welcome to Smart Home
+[2025-04-06 19:13:34] [ERROR] Failed to create fan thread
+[2025-04-06 19:13:34] [INFO] Reading light sensor...
+[2025-04-06 19:13:34] [INFO] Reading fan sensor...
+[2025-04-06 19:15:57] [ERROR] 
+
+
+[2025-04-06 19:15:57] [ERROR] Welcome to Smart Home
+[2025-04-06 19:15:57] [INFO] Reading light sensor...
+[2025-04-06 19:15:57] [INFO] Reading fan sensor...
+[2025-04-06 19:15:57] [INFO] Reading AC sensor...
+[2025-04-06 19:15:57] [INFO] Light sensor value: 7.086462
+[2025-04-06 19:15:57] [INFO] Fan sensor value: 60.748661
+[2025-04-06 19:15:57] [INFO] AC sensor value: 1053.568604
+[2025-04-06 19:16:21] [ERROR] 
+
+
+[2025-04-06 19:16:21] [ERROR] Welcome to Smart Home
+[2025-04-06 19:16:21] [INFO] Reading light sensor...
+[2025-04-06 19:16:21] [INFO] Reading fan sensor...
+[2025-04-06 19:16:21] [INFO] Reading AC sensor...
+[2025-04-06 19:16:21] [INFO] Light sensor value: 7.086462
+[2025-04-06 19:16:21] [INFO] Fan sensor value: 60.748661
+[2025-04-06 19:16:21] [INFO] AC sensor value: 1053.568604
+[2025-04-06 19:16:22] [ERROR] SIGINT received. Exiting...
+[2025-04-06 19:16:36] [ERROR] 
+
+
+[2025-04-06 19:16:36] [ERROR] Welcome to Smart Home
+[2025-04-06 19:16:36] [INFO] Reading light sensor...
+[2025-04-06 19:16:36] [INFO] Reading fan sensor...
+[2025-04-06 19:16:36] [INFO] Reading AC sensor...
+[2025-04-06 19:16:36] [INFO] Light sensor value: 7.086462
+[2025-04-06 19:16:36] [INFO] Fan sensor value: 60.748661
+[2025-04-06 19:16:36] [INFO] AC sensor value: 1053.568604
+[2025-04-06 19:16:37] [ERROR] SIGINT received. Exiting...
+[2025-04-06 19:16:37] [ERROR] SIGINT received. Exiting...
+[2025-04-06 19:17:45] [ERROR] 
+
+
+[2025-04-06 19:17:45] [ERROR] Welcome to Smart Home
+[2025-04-06 19:17:45] [INFO] Reading light sensor...
+[2025-04-06 19:17:45] [INFO] Reading AC sensor...
+[2025-04-06 19:17:45] [INFO] Reading fan sensor...
+[2025-04-06 19:17:45] [INFO] Light sensor value: 7.086462
+[2025-04-06 19:17:45] [INFO] AC sensor value: 1053.568604
+[2025-04-06 19:17:45] [INFO] Fan sensor value: 60.748661
+[2025-04-06 19:17:48] [INFO] Light sensor value: 7.086462
+[2025-04-06 19:17:50] [INFO] Fan sensor value: 60.748661
+[2025-04-06 19:17:51] [INFO] Light sensor value: 7.086462
+[2025-04-06 19:17:54] [INFO] Light sensor value: 7.086462
+[2025-04-06 19:17:55] [INFO] AC sensor value: 1053.568604
+[2025-04-06 19:17:55] [INFO] Fan sensor value: 60.748661
+[2025-04-06 19:17:57] [INFO] Light sensor value: 7.086462
+[2025-04-06 19:18:00] [INFO] Fan sensor value: 60.748661
+[2025-04-06 19:18:00] [INFO] Light sensor value: 7.086462
+[2025-04-06 19:18:03] [INFO] Light sensor value: 7.086462
+[2025-04-06 19:18:03] [ERROR] SIGINT received. Exiting...
+[2025-04-06 19:18:03] [ERROR] SIGINT received. Exiting...
+[2025-04-06 19:19:34] [ERROR] 
+
+
+[2025-04-06 19:19:34] [ERROR] Welcome to Smart Home
+[2025-04-06 19:19:34] [INFO] Mocking sensor readings...
+[2025-04-06 19:19:34] [INFO] Reading light sensor...
+[2025-04-06 19:19:34] [INFO] Reading AC sensor...
+[2025-04-06 19:19:34] [INFO] Reading fan sensor...
+[2025-04-06 19:19:34] [INFO] AC sensor value: 1053.568604
+[2025-04-06 19:19:34] [INFO] Fan sensor value: 60.748661
+[2025-04-06 19:19:34] [INFO] Light sensor value: 7.086462
+[2025-04-06 19:19:37] [INFO] Light sensor value: 7.086462
+[2025-04-06 19:19:39] [INFO] Fan sensor value: 60.748661
+[2025-04-06 19:19:40] [INFO] Light sensor value: 7.086462
+[2025-04-06 19:19:44] [INFO] Light sensor value: 7.086462
+[2025-04-06 19:19:44] [INFO] AC sensor value: 1053.568604
+[2025-04-06 19:19:44] [INFO] Fan sensor value: 60.748661
+[2025-04-06 19:19:47] [INFO] Light sensor value: 7.086462
+[2025-04-06 19:19:50] [INFO] Fan sensor value: 60.748661
+[2025-04-06 19:19:50] [INFO] Light sensor value: 7.086462
+[2025-04-06 19:19:53] [INFO] Light sensor value: 7.086462
+[2025-04-06 19:19:54] [INFO] AC sensor value: 1053.568604
+[2025-04-06 19:19:55] [INFO] Fan sensor value: 60.748661
+[2025-04-06 19:19:56] [INFO] Light sensor value: 7.086462
+[2025-04-06 19:19:59] [INFO] Light sensor value: 7.086462
+[2025-04-06 19:20:00] [INFO] Fan sensor value: 60.748661
+[2025-04-06 19:20:02] [INFO] Light sensor value: 7.086462
+[2025-04-06 19:20:05] [INFO] AC sensor value: 1053.568604
+[2025-04-06 19:20:05] [INFO] Fan sensor value: 60.748661
+[2025-04-06 19:20:05] [INFO] Light sensor value: 7.086462
+[2025-04-06 19:20:08] [INFO] Light sensor value: 7.086462
+[2025-04-06 19:20:10] [INFO] Fan sensor value: 60.748661
+[2025-04-06 19:20:11] [INFO] Light sensor value: 7.086462
+[2025-04-06 19:20:14] [INFO] Light sensor value: 7.086462
+[2025-04-06 19:20:15] [INFO] AC sensor value: 1053.568604
+[2025-04-06 19:20:15] [INFO] Fan sensor value: 60.748661
+[2025-04-06 19:20:17] [INFO] Light sensor value: 7.086462
+[2025-04-06 19:20:20] [INFO] Fan sensor value: 60.748661
+[2025-04-06 19:20:20] [INFO] Light sensor value: 7.086462
+[2025-04-06 19:20:23] [INFO] Light sensor value: 7.086462
+[2025-04-06 19:20:25] [INFO] AC sensor value: 1053.568604
+[2025-04-06 19:20:25] [INFO] Fan sensor value: 60.748661
+[2025-04-06 19:20:26] [INFO] Light sensor value: 7.086462
+[2025-04-06 19:20:29] [INFO] Light sensor value: 7.086462
+[2025-04-06 19:20:30] [INFO] Fan sensor value: 60.748661
+[2025-04-06 19:20:32] [INFO] Light sensor value: 7.086462
+[2025-04-06 19:20:35] [INFO] AC sensor value: 1053.568604
+[2025-04-06 19:20:35] [INFO] Fan sensor value: 60.748661
+[2025-04-06 19:20:35] [INFO] Light sensor value: 7.086462
+[2025-04-06 19:20:38] [INFO] Light sensor value: 7.086462
+[2025-04-06 19:20:40] [INFO] Fan sensor value: 60.748661
+[2025-04-06 19:20:41] [INFO] Light sensor value: 7.086462
+[2025-04-06 19:20:44] [INFO] Light sensor value: 7.086462
+[2025-04-06 19:20:45] [INFO] AC sensor value: 1053.568604
+[2025-04-06 19:20:45] [INFO] Fan sensor value: 60.748661
+[2025-04-06 19:20:47] [INFO] Light sensor value: 7.086462
+[2025-04-06 19:20:50] [INFO] Fan sensor value: 60.748661
+[2025-04-06 19:20:50] [INFO] Light sensor value: 7.086462
+[2025-04-06 19:20:53] [INFO] Light sensor value: 7.086462
+[2025-04-06 19:20:55] [INFO] AC sensor value: 1053.568604
+[2025-04-06 19:20:55] [INFO] Fan sensor value: 60.748661
+[2025-04-06 19:20:56] [INFO] Light sensor value: 7.086462
+[2025-04-06 19:20:59] [INFO] Light sensor value: 7.086462
+[2025-04-06 19:21:00] [INFO] Fan sensor value: 60.748661
+[2025-04-06 19:21:00] [ERROR] SIGINT received. Exiting...
+[2025-04-06 19:21:03] [ERROR] 
+
+
+[2025-04-06 19:21:03] [ERROR] Welcome to Smart Home
+[2025-04-06 19:21:03] [INFO] Mocking sensor readings...
+[2025-04-06 19:21:03] [INFO] Reading light sensor...
+[2025-04-06 19:21:03] [INFO] Reading AC sensor...
+[2025-04-06 19:21:03] [INFO] Reading fan sensor...
+[2025-04-06 19:21:03] [INFO] Light sensor value: 7.086462
+[2025-04-06 19:21:03] [INFO] Fan sensor value: 60.748661
+[2025-04-06 19:21:03] [INFO] AC sensor value: 1053.568604
+[2025-04-06 19:21:06] [INFO] Light sensor value: 7.086462
+[2025-04-06 19:21:08] [INFO] Fan sensor value: 60.748661
+[2025-04-06 19:21:09] [INFO] Light sensor value: 7.086462
+[2025-04-06 19:21:12] [INFO] Light sensor value: 7.086462
+[2025-04-06 19:21:13] [INFO] AC sensor value: 1053.568604
+[2025-04-06 19:21:13] [INFO] Fan sensor value: 60.748661
+[2025-04-06 19:21:15] [INFO] Light sensor value: 7.086462
+[2025-04-06 19:21:16] [ERROR] SIGINT received. Exiting...
+[2025-04-06 19:21:27] [ERROR] 
+
+
+[2025-04-06 19:21:27] [ERROR] Welcome to Smart Home
+[2025-04-06 19:21:27] [INFO] Reading light sensor...
+[2025-04-06 19:21:27] [INFO] Reading AC sensor...
+[2025-04-06 19:21:27] [INFO] Reading fan sensor...
+[2025-04-06 19:21:27] [INFO] Mocking sensor readings...
+[2025-04-06 19:21:27] [INFO] Fan sensor value: 60.748661
+[2025-04-06 19:21:27] [INFO] AC sensor value: 1053.568604
+[2025-04-06 19:21:27] [INFO] Light sensor value: 7.086462
+[2025-04-06 19:21:30] [INFO] Light sensor value: 7.086462
+[2025-04-06 19:21:32] [INFO] Fan sensor value: 60.748661
+[2025-04-06 19:21:33] [INFO] Light sensor value: 7.086462
+[2025-04-06 19:21:33] [ERROR] SIGINT received. Exiting...
+[2025-04-06 19:22:03] [ERROR] 
+
+
+[2025-04-06 19:22:03] [ERROR] Welcome to Smart Home
+[2025-04-06 19:22:03] [INFO] Reading light sensor...
+[2025-04-06 19:22:03] [INFO] Mocking sensor readings...
+[2025-04-06 19:22:03] [INFO] Reading fan sensor...
+[2025-04-06 19:22:03] [INFO] Reading AC sensor...
+[2025-04-06 19:22:03] [INFO] Light sensor value: 10.502258
+[2025-04-06 19:22:03] [INFO] Fan sensor value: 66.222809
+[2025-04-06 19:22:03] [INFO] AC sensor value: 803.255371
+[2025-04-06 19:22:06] [INFO] Light sensor value: 10.502258
+[2025-04-06 19:22:08] [INFO] Fan sensor value: 66.222809
+[2025-04-06 19:22:09] [INFO] Light sensor value: 10.502258
+[2025-04-06 19:22:12] [INFO] Light sensor value: 10.502258
+[2025-04-06 19:22:13] [INFO] AC sensor value: 803.255371
+[2025-04-06 19:22:13] [INFO] Fan sensor value: 66.222809
+[2025-04-06 19:22:14] [ERROR] SIGINT received. Exiting...
+[2025-04-06 19:24:37] [ERROR] 
+
+
+[2025-04-06 19:24:37] [ERROR] Welcome to Smart Home
+[2025-04-06 19:24:37] [INFO] Reading light sensor...
+[2025-04-06 19:24:37] [INFO] Mocking sensor readings...
+[2025-04-06 19:24:37] [INFO] Reading fan sensor...
+[2025-04-06 19:24:37] [INFO] Reading AC sensor...
+[2025-04-06 19:24:37] [INFO] Fan sensor value: 66.222809
+[2025-04-06 19:24:37] [INFO] AC sensor value: 803.255371
+[2025-04-06 19:24:37] [INFO] Light sensor value: 10.502258
+[2025-04-06 19:24:40] [INFO] Light sensor value: 10.502258
+[2025-04-06 19:24:42] [INFO] Fan sensor value: 66.222809
+[2025-04-06 19:24:43] [INFO] Light sensor value: 10.502258
+[2025-04-06 19:24:46] [INFO] Light sensor value: 10.502258
+[2025-04-06 19:24:47] [INFO] AC sensor value: 803.255371
+[2025-04-06 19:24:47] [INFO] Fan sensor value: 66.222809
+[2025-04-06 19:24:47] [ERROR] SIGINT received. Exiting...
+[2025-04-06 19:25:26] [ERROR] 
+
+
+[2025-04-06 19:25:26] [ERROR] Welcome to Smart Home
+[2025-04-06 19:25:26] [INFO] Mocking sensor readings...
+[2025-04-06 19:25:26] [INFO] Reading light sensor...
+[2025-04-06 19:25:26] [INFO] Reading fan sensor...
+[2025-04-06 19:25:26] [INFO] Reading AC sensor...
+[2025-04-06 19:25:26] [INFO] Light sensor value: 10.502258
+[2025-04-06 19:25:26] [INFO] AC sensor value: 803.255371
+[2025-04-06 19:25:26] [INFO] Fan sensor value: 66.222809
+[2025-04-06 19:25:29] [INFO] Light sensor value: 10.502258
+[2025-04-06 19:25:31] [INFO] Fan sensor value: 66.222809
+[2025-04-06 19:25:32] [INFO] Light sensor value: 10.502258
+[2025-04-06 19:25:35] [INFO] Light sensor value: 10.502258
+[2025-04-06 19:25:36] [INFO] AC sensor value: 803.255371
+[2025-04-06 19:25:36] [INFO] Fan sensor value: 66.222809
+[2025-04-06 19:25:38] [INFO] Light sensor value: 10.502258
+[2025-04-06 19:25:41] [INFO] Fan sensor value: 66.222809
+[2025-04-06 19:25:41] [INFO] Light sensor value: 10.502258
+[2025-04-06 19:25:44] [INFO] Light sensor value: 10.502258
+[2025-04-06 19:25:46] [INFO] AC sensor value: 803.255371
+[2025-04-06 19:25:46] [INFO] Fan sensor value: 66.222809
+[2025-04-06 19:25:47] [INFO] Light sensor value: 10.502258
+[2025-04-06 19:25:47] [ERROR] SIGINT received. Exiting...
+[2025-04-06 19:26:42] [ERROR] 
+
+
+[2025-04-06 19:26:42] [ERROR] Welcome to Smart Home
+[2025-04-06 19:26:42] [INFO] Mocking sensor readings...
+[2025-04-06 19:26:42] [INFO] Reading light sensor...
+[2025-04-06 19:26:42] [INFO] Reading fan sensor...
+[2025-04-06 19:26:42] [INFO] Reading AC sensor...
+[2025-04-06 19:26:42] [INFO] Light sensor value: 10.502258
+[2025-04-06 19:26:42] [INFO] Fan sensor value: 66.222809
+[2025-04-06 19:26:42] [INFO] AC sensor value: 803.255371
+[2025-04-06 19:26:45] [INFO] Light sensor value: 18.096283
+[2025-04-06 19:26:47] [INFO] Fan sensor value: 76.921051
+[2025-04-06 19:26:48] [INFO] Light sensor value: 19.265369
+[2025-04-06 19:26:51] [INFO] Light sensor value: 5.295705
+[2025-04-06 19:26:52] [INFO] Fan sensor value: 63.895866
+[2025-04-06 19:26:52] [INFO] AC sensor value: 1679.126587
+[2025-04-06 19:26:54] [INFO] Light sensor value: 6.524292
+[2025-04-06 19:26:57] [INFO] Fan sensor value: 65.921463
+[2025-04-06 19:26:57] [INFO] Light sensor value: 7.635441
+[2025-04-06 19:27:00] [INFO] Light sensor value: 16.208071
+[2025-04-06 19:27:02] [INFO] AC sensor value: 1159.451660
+[2025-04-06 19:27:02] [INFO] Fan sensor value: 52.914146
+[2025-04-06 19:27:03] [INFO] Light sensor value: 17.367586
+[2025-04-06 19:27:06] [INFO] Light sensor value: 18.499935
+[2025-04-06 19:27:07] [INFO] Fan sensor value: 69.802132
+[2025-04-06 19:27:09] [INFO] Light sensor value: 12.078417
+[2025-04-06 19:27:12] [INFO] AC sensor value: 1734.859253
+[2025-04-06 19:27:12] [INFO] Fan sensor value: 71.764526
+[2025-04-06 19:27:12] [INFO] Light sensor value: 13.234358
+[2025-04-06 19:27:15] [INFO] Light sensor value: 14.406351
+[2025-04-06 19:27:17] [INFO] Fan sensor value: 73.788155
+[2025-04-06 19:27:18] [INFO] Light sensor value: 8.062172
+[2025-04-06 19:27:21] [INFO] Light sensor value: 16.636230
+[2025-04-06 19:27:22] [INFO] AC sensor value: 1221.226318
+[2025-04-06 19:27:22] [INFO] Fan sensor value: 60.812809
+[2025-04-06 19:27:24] [INFO] Light sensor value: 10.266548
+[2025-04-06 19:27:27] [INFO] Fan sensor value: 62.625515
+[2025-04-06 19:27:27] [INFO] Light sensor value: 18.857025
+[2025-04-06 19:27:30] [INFO] Light sensor value: 10.378633
+[2025-04-06 19:27:32] [INFO] AC sensor value: 1030.813843
+[2025-04-06 19:27:32] [INFO] Fan sensor value: 77.079544
+[2025-04-06 19:27:33] [INFO] Light sensor value: 19.042313
+[2025-04-06 19:27:36] [INFO] Light sensor value: 5.129624
+[2025-04-06 19:27:37] [INFO] Fan sensor value: 63.988476
+[2025-04-06 19:27:39] [INFO] Light sensor value: 13.742408
+[2025-04-06 19:27:42] [INFO] AC sensor value: 1056.935791
+[2025-04-06 19:27:42] [INFO] Fan sensor value: 50.950024
+[2025-04-06 19:27:42] [INFO] Light sensor value: 7.387276
+[2025-04-06 19:27:45] [INFO] Light sensor value: 16.026869
+[2025-04-06 19:27:47] [INFO] Fan sensor value: 67.909172
+[2025-04-06 19:27:48] [INFO] Light sensor value: 9.586195
+[2025-04-06 19:27:51] [INFO] Light sensor value: 10.769895
+[2025-04-06 19:27:52] [INFO] AC sensor value: 0.000000
+[2025-04-06 19:27:52] [INFO] Fan sensor value: 54.814907
+[2025-04-06 19:27:54] [INFO] Light sensor value: 19.358692
+[2025-04-06 19:27:57] [INFO] Fan sensor value: 59.429497
+[2025-04-06 19:27:57] [INFO] Light sensor value: 13.038455
+[2025-04-06 19:28:00] [INFO] Light sensor value: 6.666591
+[2025-04-06 19:28:02] [INFO] AC sensor value: 779.026733
+[2025-04-06 19:28:02] [INFO] Fan sensor value: 61.307945
+[2025-04-06 19:28:03] [INFO] Light sensor value: 17.445229
+[2025-04-06 19:28:06] [INFO] Light sensor value: 18.456078
+[2025-04-06 19:28:07] [INFO] Fan sensor value: 63.364079
+[2025-04-06 19:28:09] [INFO] Light sensor value: 12.137739
+[2025-04-06 19:28:12] [INFO] AC sensor value: 810.764038
+[2025-04-06 19:28:12] [INFO] Fan sensor value: 65.254028
+[2025-04-06 19:28:12] [INFO] Light sensor value: 5.789587
+[2025-04-06 19:28:15] [INFO] Light sensor value: 14.421058
+[2025-04-06 19:28:17] [INFO] Fan sensor value: 52.214642
+[2025-04-06 19:28:18] [INFO] Light sensor value: 15.523448
+[2025-04-06 19:28:21] [INFO] Light sensor value: 16.617641
+[2025-04-06 19:28:22] [INFO] AC sensor value: 842.456970
+[2025-04-06 19:28:22] [INFO] Fan sensor value: 54.282902
+[2025-04-06 19:28:24] [INFO] Light sensor value: 10.326891
+[2025-04-06 19:28:27] [INFO] Fan sensor value: 56.158371
+[2025-04-06 19:28:27] [INFO] Light sensor value: 18.901619
+[2025-04-06 19:28:30] [INFO] Light sensor value: 5.039135
+[2025-04-06 19:28:32] [INFO] AC sensor value: 871.670715
+[2025-04-06 19:28:32] [INFO] Fan sensor value: 73.193306
+[2025-04-06 19:28:33] [INFO] Light sensor value: 13.707688
+[2025-04-06 19:28:36] [INFO] Light sensor value: 5.180990
+[2025-04-06 19:28:37] [INFO] Fan sensor value: 72.538155
+[2025-04-06 19:28:39] [INFO] Light sensor value: 6.302914
+[2025-04-06 19:28:42] [INFO] AC sensor value: 1231.585693
+[2025-04-06 19:28:42] [INFO] Fan sensor value: 74.453201
+[2025-04-06 19:28:42] [INFO] Light sensor value: 7.433523
+[2025-04-06 19:28:45] [INFO] Light sensor value: 8.602110
+[2025-04-06 19:28:47] [INFO] Fan sensor value: 76.604286
+[2025-04-06 19:28:48] [INFO] Light sensor value: 9.704777
+[2025-04-06 19:28:51] [INFO] Light sensor value: 18.278862
+[2025-04-06 19:28:52] [INFO] AC sensor value: 1266.505005
+[2025-04-06 19:28:52] [INFO] Fan sensor value: 78.498787
+[2025-04-06 19:28:54] [INFO] Light sensor value: 11.930065
+[2025-04-06 19:28:57] [INFO] Fan sensor value: 65.323502
+[2025-04-06 19:28:57] [INFO] Light sensor value: 13.035313
+[2025-04-06 19:29:00] [INFO] Light sensor value: 14.251447
+[2025-04-06 19:29:02] [INFO] AC sensor value: 743.657349
+[2025-04-06 19:29:02] [INFO] Fan sensor value: 52.421268
+[2025-04-06 19:29:03] [INFO] Light sensor value: 7.869199
+[2025-04-06 19:29:06] [INFO] Light sensor value: 16.420774
+[2025-04-06 19:29:07] [INFO] Fan sensor value: 69.353378
+[2025-04-06 19:29:09] [INFO] Light sensor value: 10.091982
+[2025-04-06 19:29:12] [INFO] AC sensor value: 1536.340332
+[2025-04-06 19:29:12] [INFO] Fan sensor value: 56.162457
+[2025-04-06 19:29:12] [INFO] Light sensor value: 18.662508
+[2025-04-06 19:29:15] [INFO] Light sensor value: 12.296530
+[2025-04-06 19:29:16] [ERROR] SIGINT received. Exiting...
+[2025-04-06 19:39:02] [ERROR] 
+
+
+[2025-04-06 19:39:02] [ERROR] Welcome to Smart Home
+[2025-04-06 19:39:02] [INFO] Mocking sensor readings...
+[2025-04-06 19:39:02] [INFO] Reading fan sensor...
+[2025-04-06 19:39:02] [INFO] Reading light sensor...
+[2025-04-06 19:39:02] [INFO] Reading AC sensor...
+[2025-04-06 19:39:02] [INFO] Fan sensor value: 63.364586
+[2025-04-06 19:39:02] [INFO] Light sensor value: 12.296530
+[2025-04-06 19:39:02] [INFO] AC sensor value: 1766.614014
+[2025-04-06 19:39:05] [INFO] Light sensor value: 6.105272
+[2025-04-06 19:39:07] [INFO] Fan sensor value: 67.233231
+[2025-04-06 19:39:08] [INFO] Light sensor value: 7.246861
+[2025-04-06 19:39:11] [INFO] Light sensor value: 15.840053
+[2025-04-06 19:39:12] [INFO] AC sensor value: 1082.179565
+[2025-04-06 19:39:12] [INFO] Fan sensor value: 54.172920
+[2025-04-06 19:39:14] [INFO] Light sensor value: 17.019905
+[2025-04-06 19:39:17] [INFO] Fan sensor value: 71.264389
+[2025-04-06 19:39:17] [INFO] Light sensor value: 10.667894
+[2025-04-06 19:39:20] [INFO] Light sensor value: 11.713225
+[2025-04-06 19:39:22] [INFO] AC sensor value: 1111.916504
+[2025-04-06 19:39:22] [INFO] Fan sensor value: 58.069447
+[2025-04-06 19:39:23] [INFO] Light sensor value: 12.929043
+[2025-04-06 19:39:26] [INFO] Light sensor value: 14.086099
+[2025-04-06 19:39:27] [INFO] Fan sensor value: 75.177956
+[2025-04-06 19:39:29] [INFO] Light sensor value: 15.149640
+[2025-04-06 19:39:32] [INFO] AC sensor value: 1473.509277
+[2025-04-06 19:39:32] [INFO] Light sensor value: 14.095735
+[2025-04-06 19:39:32] [INFO] Fan sensor value: 74.412315
+[2025-04-06 19:39:35] [INFO] Light sensor value: 15.273411
+[2025-04-06 19:39:37] [INFO] Fan sensor value: 61.425121
+[2025-04-06 19:39:38] [INFO] Light sensor value: 16.425268
+[2025-04-06 19:39:41] [INFO] Light sensor value: 10.069961
+[2025-04-06 19:39:42] [INFO] AC sensor value: 1504.724854
+[2025-04-06 19:39:42] [INFO] Fan sensor value: 78.403061
+[2025-04-06 19:39:44] [INFO] Light sensor value: 18.679766
+[2025-04-06 19:39:47] [INFO] Light sensor value: 19.734787
+[2025-04-06 19:39:47] [INFO] Fan sensor value: 50.302998
+[2025-04-06 19:39:50] [INFO] Light sensor value: 13.405958
+[2025-04-06 19:39:52] [INFO] AC sensor value: 1534.181274
+[2025-04-06 19:39:52] [INFO] Fan sensor value: 67.311180
+[2025-04-06 19:39:53] [INFO] Light sensor value: 7.013894
+[2025-04-06 19:39:56] [INFO] Light sensor value: 8.101351
+[2025-04-06 19:39:57] [INFO] Fan sensor value: 69.307053
+[2025-04-06 19:39:59] [INFO] Light sensor value: 9.350668
+[2025-04-06 19:40:01] [ERROR] SIGINT (2) received
+[2025-04-06 19:40:01] [ERROR] Exiting...
+[2025-04-06 19:40:34] [ERROR] 
+
+
+[2025-04-06 19:40:34] [ERROR] Welcome to Smart Home
+[2025-04-06 19:40:34] [INFO] Mocking sensor readings...
+[2025-04-06 19:40:34] [INFO] Reading light sensor...
+[2025-04-06 19:40:34] [INFO] Reading AC sensor...
+[2025-04-06 19:40:34] [INFO] Reading fan sensor...
+[2025-04-06 19:40:34] [INFO] Fan sensor value: 61.512177
+[2025-04-06 19:40:34] [INFO] Light sensor value: 7.180116
+[2025-04-06 19:40:34] [INFO] AC sensor value: 1449.467773
+[2025-04-06 19:40:37] [INFO] Light sensor value: 13.140955
+[2025-04-06 19:40:39] [INFO] Fan sensor value: 52.285210
+[2025-04-06 19:40:40] [INFO] Light sensor value: 14.308564
+[2025-04-06 19:40:43] [INFO] Light sensor value: 15.451697
+[2025-04-06 19:40:44] [INFO] AC sensor value: 1462.560059
+[2025-04-06 19:40:44] [INFO] Fan sensor value: 69.298843
+[2025-04-06 19:40:46] [INFO] Light sensor value: 9.019995
+[2025-04-06 19:40:49] [INFO] Fan sensor value: 71.317879
+[2025-04-06 19:40:49] [INFO] Light sensor value: 17.718412
+[2025-04-06 19:40:52] [INFO] Light sensor value: 18.819695
+[2025-04-06 19:40:54] [INFO] AC sensor value: 1491.331055
+[2025-04-06 19:40:54] [INFO] Fan sensor value: 73.257156
+[2025-04-06 19:40:55] [INFO] Light sensor value: 12.428083
+[2025-04-06 19:40:58] [INFO] Light sensor value: 5.999413
+[2025-04-06 19:40:59] [INFO] Fan sensor value: 75.188477
+[2025-04-06 19:41:01] [INFO] Light sensor value: 14.626287
+[2025-04-06 19:41:04] [INFO] AC sensor value: 1523.709473
+[2025-04-06 19:41:04] [INFO] Light sensor value: 8.365373
+[2025-04-06 19:41:04] [INFO] Fan sensor value: 62.250786
+[2025-04-06 19:41:07] [INFO] Light sensor value: 16.913330
+[2025-04-06 19:41:09] [INFO] Fan sensor value: 79.066299
+[2025-04-06 19:41:10] [INFO] Light sensor value: 10.543575
+[2025-04-06 19:41:13] [INFO] Light sensor value: 19.146343
+[2025-04-06 19:41:14] [INFO] AC sensor value: 998.572144
+[2025-04-06 19:41:14] [INFO] Fan sensor value: 51.043129
+[2025-04-06 19:41:16] [INFO] Light sensor value: 5.352485
+[2025-04-06 19:41:18] [ERROR] SIGINT (2) received
+[2025-04-06 19:41:18] [ERROR] Exiting...
+[2025-04-06 19:41:19] [ERROR] 
+
+
+[2025-04-06 19:41:19] [ERROR] Welcome to Smart Home
+[2025-04-06 19:41:19] [INFO] Mocking sensor readings...
+[2025-04-06 19:41:19] [INFO] Reading light sensor...
+[2025-04-06 19:41:19] [INFO] Reading AC sensor...
+[2025-04-06 19:41:19] [INFO] Reading fan sensor...
+[2025-04-06 19:41:19] [INFO] AC sensor value: 1236.541382
+[2025-04-06 19:41:19] [INFO] Light sensor value: 8.633490
+[2025-04-06 19:41:19] [INFO] Fan sensor value: 55.780769
+[2025-04-06 19:41:22] [INFO] Light sensor value: 19.345001
+[2025-04-06 19:41:24] [INFO] Fan sensor value: 50.435448
+[2025-04-06 19:41:25] [INFO] Light sensor value: 8.758618
+[2025-04-06 19:41:28] [INFO] Light sensor value: 8.758618
+[2025-04-06 19:41:29] [INFO] AC sensor value: 1364.035156
+[2025-04-06 19:41:29] [INFO] Fan sensor value: 52.459080
+[2025-04-06 19:41:31] [INFO] Light sensor value: 13.142330
+[2025-04-06 19:41:34] [INFO] Fan sensor value: 69.448418
+[2025-04-06 19:41:34] [INFO] Light sensor value: 17.469381
+[2025-04-06 19:41:37] [INFO] Light sensor value: 17.469381
+[2025-04-06 19:41:39] [INFO] AC sensor value: 1391.214111
+[2025-04-06 19:41:39] [INFO] Fan sensor value: 56.299171
+[2025-04-06 19:41:40] [INFO] Light sensor value: 6.842866
+[2025-04-06 19:41:43] [INFO] Light sensor value: 6.842866
+[2025-04-06 19:41:44] [INFO] Fan sensor value: 73.246872
+[2025-04-06 19:41:46] [INFO] Light sensor value: 18.700848
+[2025-04-06 19:41:49] [INFO] AC sensor value: 868.923645
+[2025-04-06 19:41:49] [INFO] Fan sensor value: 60.182739
+[2025-04-06 19:41:49] [INFO] Light sensor value: 8.142838
+[2025-04-06 19:41:52] [INFO] Light sensor value: 8.142838
+[2025-04-06 19:41:52] [ERROR] SIGINT (2) received
+[2025-04-06 19:41:52] [ERROR] Exiting...
+[2025-04-06 20:01:58] [ERROR] 
+
+
+[2025-04-06 20:01:58] [ERROR] Welcome to Smart Home
+[2025-04-06 20:01:58] [INFO] Reading light sensor...
+[2025-04-06 20:01:58] [INFO] Mocking sensor readings...
+[2025-04-06 20:01:58] [INFO] Reading fan sensor...
+[2025-04-06 20:01:58] [INFO] Reading AC sensor...
+[2025-04-06 20:01:58] [INFO] Fan sensor value: 77.305809
+[2025-04-06 20:01:58] [INFO] Light sensor value: 8.142838
+[2025-04-06 20:01:58] [INFO] AC sensor value: 1438.704834
+[2025-04-06 20:02:01] [INFO] Light sensor value: 12.341419
+[2025-04-06 20:02:03] [INFO] Fan sensor value: 74.502914
+[2025-04-06 20:02:04] [INFO] Light sensor value: 16.673737
+[2025-04-06 20:02:07] [INFO] Light sensor value: 16.673737
+[2025-04-06 20:02:08] [INFO] AC sensor value: 1338.762939
+[2025-04-06 20:02:08] [INFO] Fan sensor value: 76.387520
+[2025-04-06 20:02:10] [INFO] Light sensor value: 13.600330
+[2025-04-06 20:02:13] [INFO] Fan sensor value: 78.388588
+[2025-04-06 20:02:13] [INFO] Light sensor value: 13.600330
+[2025-04-06 20:02:16] [INFO] Light sensor value: 17.992895
+[2025-04-06 20:02:18] [INFO] AC sensor value: 1373.095459
+[2025-04-06 20:02:18] [INFO] Fan sensor value: 50.437168
+[2025-04-06 20:02:19] [INFO] Light sensor value: 7.282203
+[2025-04-06 20:02:19] [ERROR] SIGINT (2) received
+[2025-04-06 20:02:19] [ERROR] Exiting...
+
+
+[2025-04-06 20:08:11] [ERROR] 
+
+
+[2025-04-06 20:08:11] [ERROR] Welcome to Smart Home
+[2025-04-06 20:08:11] [INFO] Mocking sensor readings...
+[2025-04-06 20:08:11] [INFO] Reading light sensor...
+[2025-04-06 20:08:11] [INFO] Reading fan sensor...
+[2025-04-06 20:08:11] [INFO] Reading AC sensor...
+[2025-04-06 20:08:11] [INFO] Fan sensor value: 52.229439
+[2025-04-06 20:08:11] [INFO] Light sensor value: 7.282203
+[2025-04-06 20:08:11] [INFO] AC sensor value: 1380.088867
+[2025-04-06 20:08:14] [INFO] Light sensor value: 7.474209
+[2025-04-06 20:08:16] [INFO] Fan sensor value: 76.828499
+[2025-04-06 20:08:17] [INFO] Light sensor value: 11.888659
+[2025-04-06 20:08:20] [INFO] Light sensor value: 11.888659
+[2025-04-06 20:08:21] [INFO] AC sensor value: 1221.721191
+[2025-04-06 20:08:21] [INFO] Fan sensor value: 78.816711
+[2025-04-06 20:08:23] [INFO] Light sensor value: 8.728895
+[2025-04-06 20:08:26] [INFO] Fan sensor value: 65.699600
+[2025-04-06 20:08:26] [INFO] Light sensor value: 8.728895
+[2025-04-06 20:08:26] [ERROR] SIGINT (2) received
+[2025-04-06 20:08:26] [ERROR] Exiting...
+
+

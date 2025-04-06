@@ -1,10 +1,7 @@
-
-#include <stdlib.h>
 #include <pthread.h>
-#include <unistd.h>
 #include "threading.h"
 
-void *thread_func1()
+void *light_thread_func()
 {
     logger(INFO, "Reading light sensor...\n");
     while (1)
@@ -14,7 +11,7 @@ void *thread_func1()
     pthread_exit(NULL);
 }
 
-void *thread_func2()
+void *fan_thread_func()
 {
     logger(INFO, "Reading fan sensor...\n");
     while (1)
@@ -24,7 +21,7 @@ void *thread_func2()
     pthread_exit(NULL);
 }
 
-void *thread_func3()
+void *ac_thread_func()
 {
     logger(INFO, "Reading AC sensor...\n");
     while (1)
@@ -36,32 +33,24 @@ void *thread_func3()
 
 int threading()
 {
-    pthread_t thread1, thread2, thread3;
-    int ret = NOT_OK;
-
-    ret = pthread_create(&thread1, NULL, thread_func1, NULL);
-    if (ret != 0)
+    pthread_t light_thread, fan_thread, ac_thread;
+    if (pthread_create(&light_thread, NULL, light_thread_func, NULL) != 0)
     {
-        logger(ERROR, "pthread_create failed for thread 1\n");
-        return NOT_OK;
-    }
-    ret = pthread_create(&thread2, NULL, thread_func2, NULL);
-    if (ret != 0)
-    {
-        logger(ERROR, "pthread_create failed for thread 2\n");
-        return NOT_OK;
-    }
-    ret = pthread_create(&thread3, NULL, thread_func3, NULL);
-    if (ret != 0)
-    {
-        logger(ERROR, "pthread_create failed for thread 3\n");
+        logger(ERROR, "Failed to create light thread\n");
         return NOT_OK;
     }
 
-    pthread_join(thread1, NULL);
-    pthread_join(thread2, NULL);
-    pthread_join(thread3, NULL);
+    if (pthread_create(&fan_thread, NULL, fan_thread_func, NULL) != 0)
+    {
+        logger(ERROR, "Failed to create fan thread\n");
+        return NOT_OK;
+    }
 
-    logger(INFO, "All threads have completed\n");
-    return 0;
+    if (pthread_create(&ac_thread, NULL, ac_thread_func, NULL) != 0)
+    {
+        logger(ERROR, "Failed to create AC thread\n");
+        return NOT_OK;
+    }
+
+    return OK;
 }

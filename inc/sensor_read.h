@@ -1,6 +1,8 @@
 #ifndef SENSOR_READ_H
 #define SENSOR_READ_H
 
+#include <stdlib.h>
+#include <unistd.h>
 #include "logger.h"
 
 int read_light_reading();

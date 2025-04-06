@@ -1,3 +1,5 @@
+# Makefile for smart-home application
+
 CC = gcc
 CFLAGS = -Iinc -Wall -Wextra
 
@@ -18,4 +20,3 @@ clean:
 	rm -f $(OBJS) $(TARGET)
 
 .PHONY: all clean
-

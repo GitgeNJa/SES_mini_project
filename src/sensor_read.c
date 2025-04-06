@@ -1,5 +1,3 @@
-#include <stdlib.h>
-#include <unistd.h>
 #include "sensor_read.h"
 
 const char *light_filename = "./helper/light.txt";
