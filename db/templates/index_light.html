@@ -5,7 +5,7 @@ CopyEdit
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>AC Sensor Data</title>
+    <title>Light Sensor Data</title>
     <style>
         body { font-family: Arial, sans-serif; text-align: center; background-color: #f4f4f4; }
         h1 { color: #333; }
@@ -16,15 +16,15 @@ CopyEdit
     </style>
 </head>
 <body>
-    <h1>AC Sensor Data</h1>
+    <h1>Light Sensor Data</h1>
     <div class="data-box">
         <table>
             <tr>
-                <th>AC (Watt)</th>
+                <th>Light (Watt)</th>
             </tr>
             {% for entry in data %}
             <tr>
-                <td>{{ entry[0] }}</td>
+                <td>{{ entry }}</td>
             </tr>
             {% endfor %}
         </table>

@@ -1,5 +1,6 @@
 #include "sensor_read.h"
 
+FILE *sensor_write_file;
 const char *light_filename = "./helper/light.txt";
 const char *fan_filename = "./helper/fan.txt";
 const char *ac_filename = "./helper/ac.txt";
@@ -18,6 +19,14 @@ int read_light_reading()
     logger(INFO, "Light sensor value: %lf\n", light_value);
     sleep (3);
     fclose(file);
+
+    sensor_write_file = fopen("./helper/light_sensor_value.txt", "a");
+    if (sensor_write_file == NULL)
+    {
+        return 1;
+    }
+    fprintf(sensor_write_file, "%f\n", light_value);
+    fclose(sensor_write_file);
     return OK;
 }
 
@@ -35,6 +44,14 @@ int read_fan_reading()
     logger(INFO, "Fan sensor value: %lf\n", fan_value);
     sleep (5);
     fclose(file);
+
+    sensor_write_file = fopen("./helper/fan_sensor_value.txt", "a");
+    if (sensor_write_file == NULL)
+    {
+        return 1;
+    }
+    fprintf(sensor_write_file, "%f\n", fan_value);
+    fclose(sensor_write_file);
     return OK;
 }
 
@@ -52,5 +69,13 @@ int read_ac_reading()
     logger(INFO, "AC sensor value: %lf\n", ac_value);
     sleep (10);
     fclose(file);
+
+    sensor_write_file = fopen("./helper/ac_sensor_value.txt", "a");
+    if (sensor_write_file == NULL)
+    {
+        return 1;
+    }
+    fprintf(sensor_write_file, "%f\n", ac_value);
+    fclose(sensor_write_file);
     return OK;
 }
