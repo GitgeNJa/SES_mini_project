@@ -2,6 +2,6 @@
 #define MAIN_H
 
 #include "threading.h"
-#include "error_handling.h"
+#include "exit_app.h"
 
 #endif

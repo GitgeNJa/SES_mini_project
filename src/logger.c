@@ -3,7 +3,7 @@
 #include "logger.h"
 
 #define LOG_FILE_NAME "./helper/smart_home.log"
-static LogLevel currentLogLevel = DEBUG;
+static LogLevel currentLogLevel = INFO;
 
 const char* logLevelToString(LogLevel level)
 {

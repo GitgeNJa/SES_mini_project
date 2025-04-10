@@ -3,6 +3,8 @@
 
 #include "logger.h"
 
-void error_handling();
+int check_light_power();
+int check_fan_power();
+int check_ac_power();
 
 #endif

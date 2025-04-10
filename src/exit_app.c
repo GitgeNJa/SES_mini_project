@@ -1,7 +1,7 @@
 #include <stdlib.h>
 #include <unistd.h>
 #include <signal.h>
-#include "error_handling.h"
+#include "exit_app.h"
 
 volatile sig_atomic_t sigint_received = 0;
 FILE *file;
@@ -72,7 +72,7 @@ void exit_function()
     return;
 }
 
-void error_handling()
+void exit_app()
 {
     signal(SIGINT, handle_sigint);
     while (!sigint_received)

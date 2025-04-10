@@ -28,6 +28,6 @@ int main()
     {
         return NOT_OK;
     }
-    error_handling();
+    exit_app();
     return OK;
 }
