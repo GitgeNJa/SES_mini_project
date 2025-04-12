@@ -4,7 +4,7 @@ app = Flask(__name__)
 
 def read_light_sensor_log():
     try:
-        with open("../helper/light.txt", "r") as file:
+        with open("../helper/light_sensor_value.txt", "r") as file:
             lines = file.readlines()
             value = float(lines[-1].strip())
             return [f"{value:.2f}"]
@@ -17,7 +17,7 @@ def index_light():
 
 def read_fan_sensor_log():
     try:
-        with open("../helper/fan.txt", "r") as file:
+        with open("../helper/fan_sensor_value.txt", "r") as file:
             lines = file.readlines()
             value = float(lines[-1].strip())
             return [f"{value:.2f}"]
@@ -30,7 +30,7 @@ def index_fan():
 
 def read_ac_sensor_log():
     try:
-        with open("../helper/ac.txt", "r") as file:
+        with open("../helper/ac_sensor_value.txt", "r") as file:
             lines = file.readlines()
             value = float(lines[-1].strip())
             return [f"{value:.2f}"]

@@ -1,7 +1,6 @@
 #include "sensor_read.h"
 #include "error_handler.h"
 
-FILE *sensor_write_file;
 const char *light_filename = "./helper/light.txt";
 const char *fan_filename = "./helper/fan.txt";
 const char *ac_filename = "./helper/ac.txt";
@@ -24,13 +23,7 @@ int read_light_reading()
     if(!check_light_power(light_power_value))
     {
         logger(DEBUG, "Light sensor power value: %lf\n", light_power_value);
-        sensor_write_file = fopen("./helper/light_sensor_value.txt", "a");
-        if (sensor_write_file == NULL)
-        {
-            return 1;
-        }
-        fprintf(sensor_write_file, "%f\n", light_power_value);
-        fclose(sensor_write_file);
+        write_light_power_value(light_power_value);
     }
     sleep (3);
     return OK;
@@ -54,13 +47,7 @@ int read_fan_reading()
     if(!check_fan_power(fan_power_value))
     {
         logger(DEBUG, "Fan sensor power value: %lf\n", fan_power_value);
-        sensor_write_file = fopen("./helper/fan_sensor_value.txt", "a");
-        if (sensor_write_file == NULL)
-        {
-            return 1;
-        }
-        fprintf(sensor_write_file, "%f\n", fan_power_value);
-        fclose(sensor_write_file);
+        write_fan_power_value(fan_power_value);
     }
     sleep (5);
     return OK;
@@ -84,13 +71,7 @@ int read_ac_reading()
     if(!check_ac_power(ac_power_value))
     {
         logger(DEBUG, "AC sensor power value: %lf\n", ac_power_value);
-        sensor_write_file = fopen("./helper/ac_sensor_value.txt", "a");
-        if (sensor_write_file == NULL)
-        {
-            return 1;
-        }
-        fprintf(sensor_write_file, "%f\n", ac_power_value);
-        fclose(sensor_write_file);
+        write_ac_power_value(ac_power_value);
     }
     sleep (10);
     return OK;

@@ -1,0 +1,62 @@
+html
+CopyEdit
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Light Sensor Data</title>
+    <style>
+        body { font-family: Arial, sans-serif; text-align: center; background-color: #f4f4f4; }
+        h1 { color: #333; }
+        .data-box { background: white; padding: 20px; margin: 20px auto; width: 50%; border-radius: 10px; box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); }
+        table { width: 100%; border-collapse: collapse; }
+        th, td { padding: 10px; border-bottom: 1px solid #ddd; }
+        th { background: #333; color: white; }
+    </style>
+</head>
+<body>
+    <h1>Light Sensor Data</h1>
+    <div class="data-box">
+        <table>
+            <tr>
+                <th>Light (Watt)</th>
+            </tr>
+            {% for entry in data %}
+            <tr>
+                <td>{{ entry }}</td>
+            </tr>
+            {% endfor %}
+        </table>
+    </div>
+    <h1>Fan Sensor Data</h1>
+        <div class="data-box">
+            <table>
+                <tr>
+                    <th>Fan (Watt)</th>
+                </tr>
+                {% for entry in data %}
+                <tr>
+                    <td>{{ entry }}</td>
+                </tr>
+                {% endfor %}
+            </table>
+        </div>
+    <h1>AC Sensor Data</h1>
+        <div class="data-box">
+            <table>
+                <tr>
+                    <th>AC (Watt)</th>
+                </tr>
+                {% for entry in data %}
+                <tr>
+                    <td>{{ entry }}</td>
+                </tr>
+                {% endfor %}
+            </table>
+        </div>
+    <script>
+        setInterval(() => { location.reload(); }, 2000); // Auto-refresh every 2 seconds
+    </script>
+</body>
+</html>
