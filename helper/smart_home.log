@@ -1,330 +1,132 @@
-[2025-04-12 04:18:35] [ERROR] 
+[2025-04-12 06:53:29] [ERROR] 
 
 
-[2025-04-12 04:18:35] [ERROR] Welcome to Smart Home
-[2025-04-12 04:18:35] [INFO] Reading light sensor...
-[2025-04-12 04:18:35] [INFO] Mocking sensor readings...
-[2025-04-12 04:18:35] [INFO] Reading fan sensor...
-[2025-04-12 04:18:35] [INFO] Reading AC sensor...
-[2025-04-12 04:18:35] [ERROR] Light sensor Null: 0.000000
-[2025-04-12 04:18:35] [ERROR] AC sensor Null: 0.000000
-[2025-04-12 04:18:35] [ERROR] Fan sensor NULL: 0.000000
-[2025-04-12 04:18:35] [ERROR] Light: Possible disconnection at sensor end
-[2025-04-12 04:18:35] [ERROR] Fan: Possible disconnection at sensor end
-[2025-04-12 04:18:35] [ERROR] AC: Possible disconnection at sensor end
-[2025-04-12 04:18:38] [DEBUG] Light sensor power value: 23.125722
-[2025-04-12 04:18:40] [DEBUG] Fan sensor power value: 72.524760
-[2025-04-12 04:18:41] [DEBUG] Light sensor power value: 20.030457
-[2025-04-12 04:18:44] [DEBUG] Light sensor power value: 20.030457
-[2025-04-12 04:18:45] [DEBUG] AC sensor power value: 1616.368409
-[2025-04-12 04:18:45] [DEBUG] Fan sensor power value: 64.275860
-[2025-04-12 04:18:47] [DEBUG] Light sensor power value: 21.994628
-[2025-04-12 04:18:50] [DEBUG] Fan sensor power value: 60.051244
-[2025-04-12 04:18:50] [DEBUG] Light sensor power value: 21.994628
-[2025-04-12 04:18:53] [DEBUG] Light sensor power value: 19.627075
-[2025-04-12 04:18:55] [DEBUG] AC sensor power value: 1166.549726
-[2025-04-12 04:18:55] [DEBUG] Fan sensor power value: 62.067326
-[2025-04-12 04:18:56] [DEBUG] Light sensor power value: 21.549650
-[2025-04-12 04:18:59] [DEBUG] Light sensor power value: 21.549650
-[2025-04-12 04:19:00] [DEBUG] Fan sensor power value: 60.804527
-[2025-04-12 04:19:02] [DEBUG] Light sensor power value: 23.496131
-[2025-04-12 04:19:05] [DEBUG] AC sensor power value: 1443.626934
-[2025-04-12 04:19:05] [DEBUG] Fan sensor power value: 62.944738
-[2025-04-12 04:19:05] [DEBUG] Light sensor power value: 18.122829
-[2025-04-12 04:19:08] [DEBUG] Light sensor power value: 18.122829
-[2025-04-12 04:19:10] [DEBUG] Fan sensor power value: 75.666892
-[2025-04-12 04:19:11] [DEBUG] Light sensor power value: 17.996766
-[2025-04-12 04:19:14] [DEBUG] Light sensor power value: 17.996766
-[2025-04-12 04:19:15] [DEBUG] AC sensor power value: 1585.243471
-[2025-04-12 04:19:15] [DEBUG] Fan sensor power value: 77.998137
-[2025-04-12 04:19:17] [ERROR] Light sensor High: 27.434342
-[2025-04-12 04:19:17] [ERROR] Light: Possible worn out of the insulation, power surge or ground fault
-[2025-04-12 04:19:19] [ERROR] SIGINT (2) received
-[2025-04-12 04:19:19] [ERROR] Exiting...
-
-
-[2025-04-12 04:22:11] [ERROR] 
-
-
-[2025-04-12 04:22:11] [ERROR] Welcome to Smart Home
-[2025-04-12 04:22:11] [INFO] Mocking sensor readings...
-[2025-04-12 04:22:11] [INFO] Reading AC sensor...
-[2025-04-12 04:22:11] [INFO] Reading fan sensor...
-[2025-04-12 04:22:11] [INFO] Reading light sensor...
-[2025-04-12 04:22:11] [ERROR] Light sensor Null: 0.000000
-[2025-04-12 04:22:11] [ERROR] AC sensor Null: 0.000000
-[2025-04-12 04:22:11] [ERROR] Fan sensor NULL: 0.000000
-[2025-04-12 04:22:11] [ERROR] AC: Possible disconnection at sensor end
-[2025-04-12 04:22:11] [ERROR] Fan: Possible disconnection at sensor end
-[2025-04-12 04:22:11] [ERROR] Light: Possible disconnection at sensor end
-[2025-04-12 04:22:14] [DEBUG] Light sensor power value: 17.040743
-[2025-04-12 04:22:16] [DEBUG] Fan sensor power value: 63.636735
-[2025-04-12 04:22:17] [DEBUG] Light sensor power value: 16.902090
-[2025-04-12 04:22:20] [DEBUG] Light sensor power value: 16.902090
-[2025-04-12 04:22:21] [DEBUG] AC sensor power value: 1557.640390
-[2025-04-12 04:22:21] [DEBUG] Fan sensor power value: 65.513534
-[2025-04-12 04:22:23] [DEBUG] Light sensor power value: 23.929705
-[2025-04-12 04:22:26] [DEBUG] Fan sensor power value: 77.770835
-[2025-04-12 04:22:26] [DEBUG] Light sensor power value: 20.493364
-[2025-04-12 04:22:29] [DEBUG] Light sensor power value: 20.493364
-[2025-04-12 04:22:31] [DEBUG] AC sensor power value: 954.831757
-[2025-04-12 04:22:31] [DEBUG] Fan sensor power value: 77.324865
-[2025-04-12 04:22:32] [DEBUG] Light sensor power value: 20.384831
-[2025-04-12 04:22:35] [DEBUG] Light sensor power value: 20.384831
-[2025-04-12 04:22:36] [DEBUG] Fan sensor power value: 72.296336
-[2025-04-12 04:22:38] [DEBUG] Light sensor power value: 22.919029
-[2025-04-12 04:22:41] [DEBUG] AC sensor power value: 1712.913914
-[2025-04-12 04:22:41] [DEBUG] Fan sensor power value: 64.331487
-[2025-04-12 04:22:41] [DEBUG] Light sensor power value: 20.054776
-[2025-04-12 04:22:44] [DEBUG] Light sensor power value: 20.054776
-[2025-04-12 04:22:46] [DEBUG] Fan sensor power value: 76.717347
-[2025-04-12 04:22:47] [DEBUG] Light sensor power value: 16.656553
-[2025-04-12 04:22:50] [DEBUG] Light sensor power value: 16.656553
-[2025-04-12 04:22:51] [DEBUG] AC sensor power value: 1244.811143
-[2025-04-12 04:22:51] [ERROR] Fan sensor High: 86.992703
-[2025-04-12 04:22:51] [ERROR] Fan: Possible worn out of the insulation, power surge or ground fault
-[2025-04-12 04:22:53] [DEBUG] Light sensor power value: 21.708536
-[2025-04-12 04:22:56] [DEBUG] Fan sensor power value: 60.740503
-[2025-04-12 04:22:56] [DEBUG] Light sensor power value: 18.403178
-[2025-04-12 04:22:59] [DEBUG] Light sensor power value: 18.403178
-[2025-04-12 04:23:01] [DEBUG] AC sensor power value: 1536.603964
-[2025-04-12 04:23:01] [DEBUG] Fan sensor power value: 63.123929
-[2025-04-12 04:23:02] [DEBUG] Light sensor power value: 18.316001
-[2025-04-12 04:23:05] [DEBUG] Light sensor power value: 18.316001
-[2025-04-12 04:23:06] [DEBUG] Fan sensor power value: 75.652278
-[2025-04-12 04:23:08] [DEBUG] Light sensor power value: 23.070778
-[2025-04-12 04:23:11] [ERROR] AC sensor High: 1836.955789
-[2025-04-12 04:23:11] [ERROR] AC: Possible worn out of the insulation, power surge or ground fault
-[2025-04-12 04:23:11] [ERROR] Fan sensor High: 85.493162
-[2025-04-12 04:23:11] [ERROR] Fan: Possible worn out of the insulation, power surge or ground fault
-[2025-04-12 04:23:11] [DEBUG] Light sensor power value: 18.010144
-[2025-04-12 04:23:14] [DEBUG] Light sensor power value: 18.010144
-[2025-04-12 04:23:16] [DEBUG] Fan sensor power value: 72.131479
-[2025-04-12 04:23:17] [ERROR] Light sensor Low: 14.802185
-[2025-04-12 04:23:17] [ERROR] Light: Possible overload circuit or short circuit
-[2025-04-12 04:23:20] [ERROR] Light sensor Low: 14.802185
-[2025-04-12 04:23:20] [ERROR] Light: Possible overload circuit or short circuit
-[2025-04-12 04:23:21] [DEBUG] AC sensor power value: 1032.353289
-[2025-04-12 04:23:21] [ERROR] Fan sensor Low: 55.604498
-[2025-04-12 04:23:21] [ERROR] Fan: Possible overload circuit or short circuit
-[2025-04-12 04:23:23] [DEBUG] Light sensor power value: 19.581892
-[2025-04-12 04:23:26] [DEBUG] Fan sensor power value: 66.935071
-[2025-04-12 04:23:26] [DEBUG] Light sensor power value: 17.995283
-[2025-04-12 04:23:29] [DEBUG] Light sensor power value: 17.995283
-[2025-04-12 04:23:31] [ERROR] AC sensor High: 1820.648398
-[2025-04-12 04:23:31] [ERROR] AC: Possible worn out of the insulation, power surge or ground fault
-[2025-04-12 04:23:31] [DEBUG] Fan sensor power value: 76.545933
-[2025-04-12 04:23:32] [DEBUG] Light sensor power value: 23.445126
-[2025-04-12 04:23:35] [DEBUG] Light sensor power value: 23.445126
-[2025-04-12 04:23:36] [DEBUG] Fan sensor power value: 61.595200
-[2025-04-12 04:23:38] [DEBUG] Light sensor power value: 20.885046
-[2025-04-12 04:23:41] [DEBUG] AC sensor power value: 980.627888
-[2025-04-12 04:23:41] [DEBUG] Fan sensor power value: 63.732825
-[2025-04-12 04:23:41] [DEBUG] Light sensor power value: 19.779355
-[2025-04-12 04:23:44] [DEBUG] Light sensor power value: 19.779355
-[2025-04-12 04:23:46] [DEBUG] Fan sensor power value: 62.562058
-[2025-04-12 04:23:47] [DEBUG] Light sensor power value: 24.956963
-[2025-04-12 04:23:50] [DEBUG] Light sensor power value: 24.956963
-[2025-04-12 04:23:51] [DEBUG] AC sensor power value: 1469.260675
-[2025-04-12 04:23:51] [ERROR] Fan sensor Low: 58.372810
-[2025-04-12 04:23:51] [ERROR] Fan: Possible overload circuit or short circuit
-[2025-04-12 04:23:53] [DEBUG] Light sensor power value: 21.580109
-[2025-04-12 04:23:56] [DEBUG] Fan sensor power value: 67.175598
-[2025-04-12 04:23:56] [DEBUG] Light sensor power value: 19.397823
-[2025-04-12 04:23:59] [DEBUG] Light sensor power value: 19.397823
-[2025-04-12 04:24:01] [DEBUG] AC sensor power value: 1449.533640
-[2025-04-12 04:24:01] [DEBUG] Fan sensor power value: 69.514274
-[2025-04-12 04:24:02] [DEBUG] Light sensor power value: 17.684177
-[2025-04-12 04:24:05] [DEBUG] Light sensor power value: 17.684177
-[2025-04-12 04:24:06] [DEBUG] Fan sensor power value: 74.376108
-[2025-04-12 04:24:08] [DEBUG] Light sensor power value: 23.221046
-[2025-04-12 04:24:11] [DEBUG] AC sensor power value: 1612.050184
-[2025-04-12 04:24:11] [DEBUG] Fan sensor power value: 63.474856
-[2025-04-12 04:24:11] [DEBUG] Light sensor power value: 22.926367
-[2025-04-12 04:24:14] [DEBUG] Light sensor power value: 22.926367
-[2025-04-12 04:24:16] [DEBUG] Fan sensor power value: 68.887375
-[2025-04-12 04:24:17] [ERROR] Light sensor High: 25.003162
-[2025-04-12 04:24:17] [ERROR] Light: Possible worn out of the insulation, power surge or ground fault
-[2025-04-12 04:24:20] [ERROR] Light sensor High: 25.003162
-[2025-04-12 04:24:20] [ERROR] Light: Possible worn out of the insulation, power surge or ground fault
-[2025-04-12 04:24:21] [DEBUG] AC sensor power value: 1586.865747
-[2025-04-12 04:24:21] [DEBUG] Fan sensor power value: 78.722998
-[2025-04-12 04:24:23] [DEBUG] Light sensor power value: 24.794158
-[2025-04-12 04:24:26] [ERROR] Fan sensor High: 81.212504
-[2025-04-12 04:24:26] [ERROR] Fan: Possible worn out of the insulation, power surge or ground fault
-[2025-04-12 04:24:26] [ERROR] Light sensor High: 26.906394
-[2025-04-12 04:24:26] [ERROR] Light: Possible worn out of the insulation, power surge or ground fault
-[2025-04-12 04:24:29] [ERROR] Light sensor High: 26.906394
-[2025-04-12 04:24:29] [ERROR] Light: Possible worn out of the insulation, power surge or ground fault
-[2025-04-12 04:24:31] [DEBUG] AC sensor power value: 1435.280745
-[2025-04-12 04:24:31] [DEBUG] Fan sensor power value: 72.747148
-[2025-04-12 04:24:32] [ERROR] Light sensor High: 26.545784
-[2025-04-12 04:24:32] [ERROR] Light: Possible worn out of the insulation, power surge or ground fault
-[2025-04-12 04:24:35] [ERROR] Light sensor High: 26.545784
-[2025-04-12 04:24:35] [ERROR] Light: Possible worn out of the insulation, power surge or ground fault
-[2025-04-12 04:24:36] [ERROR] Fan sensor Low: 58.065701
-[2025-04-12 04:24:36] [ERROR] Fan: Possible overload circuit or short circuit
-[2025-04-12 04:24:38] [DEBUG] Light sensor power value: 18.918711
-[2025-04-12 04:24:41] [DEBUG] AC sensor power value: 1741.320954
-[2025-04-12 04:24:41] [DEBUG] Fan sensor power value: 70.072137
-[2025-04-12 04:24:41] [DEBUG] Light sensor power value: 17.381241
-[2025-04-12 04:24:44] [DEBUG] Light sensor power value: 17.381241
-[2025-04-12 04:24:46] [DEBUG] Fan sensor power value: 62.321522
-[2025-04-12 04:24:47] [DEBUG] Light sensor power value: 17.362269
-[2025-04-12 04:24:50] [DEBUG] Light sensor power value: 17.362269
-[2025-04-12 04:24:51] [DEBUG] AC sensor power value: 1262.301807
-[2025-04-12 04:24:51] [DEBUG] Fan sensor power value: 74.262154
-[2025-04-12 04:24:53] [DEBUG] Light sensor power value: 24.698511
-[2025-04-12 04:24:56] [DEBUG] Fan sensor power value: 66.633286
-[2025-04-12 04:24:56] [DEBUG] Light sensor power value: 24.559761
-[2025-04-12 04:24:59] [DEBUG] Light sensor power value: 24.559761
-[2025-04-12 04:25:01] [DEBUG] AC sensor power value: 1562.516991
-[2025-04-12 04:25:01] [DEBUG] Fan sensor power value: 65.255622
-[2025-04-12 04:25:02] [DEBUG] Light sensor power value: 20.922455
-[2025-04-12 04:25:05] [DEBUG] Light sensor power value: 20.922455
-[2025-04-12 04:25:06] [DEBUG] Fan sensor power value: 67.499196
-[2025-04-12 04:25:08] [DEBUG] Light sensor power value: 20.736264
-[2025-04-12 04:25:11] [DEBUG] AC sensor power value: 1358.144543
-[2025-04-12 04:25:11] [DEBUG] Fan sensor power value: 69.595237
-[2025-04-12 04:25:11] [DEBUG] Light sensor power value: 15.488994
-[2025-04-12 04:25:14] [DEBUG] Light sensor power value: 15.488994
-[2025-04-12 04:25:16] [DEBUG] Fan sensor power value: 72.384567
-[2025-04-12 04:25:17] [DEBUG] Light sensor power value: 17.056570
-[2025-04-12 04:25:20] [DEBUG] Light sensor power value: 17.056570
-[2025-04-12 04:25:21] [DEBUG] AC sensor power value: 1527.865195
-[2025-04-12 04:25:21] [ERROR] Fan sensor High: 85.647653
-[2025-04-12 04:25:21] [ERROR] Fan: Possible worn out of the insulation, power surge or ground fault
-[2025-04-12 04:25:23] [DEBUG] Light sensor power value: 20.318276
-[2025-04-12 04:25:26] [DEBUG] Fan sensor power value: 77.180389
-[2025-04-12 04:25:26] [DEBUG] Light sensor power value: 17.112237
-[2025-04-12 04:25:29] [DEBUG] Light sensor power value: 17.112237
-[2025-04-12 04:25:31] [DEBUG] AC sensor power value: 1683.703184
-[2025-04-12 04:25:31] [DEBUG] Fan sensor power value: 72.168418
-[2025-04-12 04:25:32] [DEBUG] Light sensor power value: 18.794324
-[2025-04-12 04:25:35] [DEBUG] Light sensor power value: 18.794324
-[2025-04-12 04:25:36] [ERROR] Fan sensor High: 81.895731
-[2025-04-12 04:25:36] [ERROR] Fan: Possible worn out of the insulation, power surge or ground fault
-[2025-04-12 04:25:38] [DEBUG] Light sensor power value: 23.964468
-[2025-04-12 04:25:41] [DEBUG] AC sensor power value: 998.321391
-[2025-04-12 04:25:41] [DEBUG] Fan sensor power value: 76.590069
-[2025-04-12 04:25:41] [DEBUG] Light sensor power value: 23.608685
-[2025-04-12 04:25:44] [DEBUG] Light sensor power value: 23.608685
-[2025-04-12 04:25:46] [DEBUG] Fan sensor power value: 75.592521
-[2025-04-12 04:25:47] [DEBUG] Light sensor power value: 20.479356
-[2025-04-12 04:25:50] [DEBUG] Light sensor power value: 20.479356
-[2025-04-12 04:25:51] [DEBUG] AC sensor power value: 1663.042919
-[2025-04-12 04:25:51] [DEBUG] Fan sensor power value: 78.186945
-[2025-04-12 04:25:53] [DEBUG] Light sensor power value: 16.729395
-[2025-04-12 04:25:56] [DEBUG] Fan sensor power value: 62.911182
-[2025-04-12 04:25:56] [DEBUG] Light sensor power value: 15.189312
-[2025-04-12 04:25:59] [DEBUG] Light sensor power value: 15.189312
-[2025-04-12 04:26:01] [ERROR] AC sensor Low: 775.387213
-[2025-04-12 04:26:01] [ERROR] AC: Possible overload circuit or short circuit
-[2025-04-12 04:26:01] [DEBUG] Fan sensor power value: 75.419211
-[2025-04-12 04:26:02] [DEBUG] Light sensor power value: 16.842200
-[2025-04-12 04:26:05] [DEBUG] Light sensor power value: 16.842200
-[2025-04-12 04:26:06] [DEBUG] Fan sensor power value: 77.730239
-[2025-04-12 04:26:08] [DEBUG] Light sensor power value: 24.012433
-[2025-04-12 04:26:11] [DEBUG] AC sensor power value: 1483.984591
-[2025-04-12 04:26:11] [DEBUG] Fan sensor power value: 76.736594
-[2025-04-12 04:26:11] [DEBUG] Light sensor power value: 18.476224
-[2025-04-12 04:26:14] [DEBUG] Light sensor power value: 18.476224
-[2025-04-12 04:26:16] [DEBUG] Fan sensor power value: 79.178415
-[2025-04-12 04:26:17] [DEBUG] Light sensor power value: 18.340157
-[2025-04-12 04:26:20] [DEBUG] Light sensor power value: 18.340157
-[2025-04-12 04:26:21] [DEBUG] AC sensor power value: 1172.475450
-[2025-04-12 04:26:21] [ERROR] Fan sensor High: 81.586692
-[2025-04-12 04:26:21] [ERROR] Fan: Possible worn out of the insulation, power surge or ground fault
-[2025-04-12 04:26:23] [DEBUG] Light sensor power value: 23.078338
-[2025-04-12 04:26:26] [DEBUG] Fan sensor power value: 68.890373
-[2025-04-12 04:26:26] [DEBUG] Light sensor power value: 20.089062
-[2025-04-12 04:26:29] [DEBUG] Light sensor power value: 20.089062
-[2025-04-12 04:26:31] [DEBUG] AC sensor power value: 1464.227737
-[2025-04-12 04:26:31] [DEBUG] Fan sensor power value: 61.728626
-[2025-04-12 04:26:32] [DEBUG] Light sensor power value: 19.793165
-[2025-04-12 04:26:35] [DEBUG] Light sensor power value: 19.793165
-[2025-04-12 04:26:36] [DEBUG] Fan sensor power value: 72.923210
-[2025-04-12 04:26:38] [DEBUG] Light sensor power value: 19.596663
-[2025-04-12 04:26:41] [DEBUG] AC sensor power value: 1143.897106
-[2025-04-12 04:26:41] [DEBUG] Fan sensor power value: 65.754779
-[2025-04-12 04:26:41] [DEBUG] Light sensor power value: 18.148525
-[2025-04-12 04:26:44] [DEBUG] Light sensor power value: 18.148525
-[2025-04-12 04:26:46] [DEBUG] Fan sensor power value: 75.137833
-[2025-04-12 04:26:47] [DEBUG] Light sensor power value: 18.114623
-[2025-04-12 04:26:50] [DEBUG] Light sensor power value: 18.114623
-[2025-04-12 04:26:51] [DEBUG] AC sensor power value: 838.323505
-[2025-04-12 04:26:51] [DEBUG] Fan sensor power value: 66.839341
-[2025-04-12 04:26:53] [DEBUG] Light sensor power value: 19.919266
-[2025-04-12 04:26:56] [DEBUG] Fan sensor power value: 62.459078
-[2025-04-12 04:26:56] [DEBUG] Light sensor power value: 17.962083
-[2025-04-12 04:26:59] [DEBUG] Light sensor power value: 17.962083
-[2025-04-12 04:27:01] [DEBUG] AC sensor power value: 1424.858152
-[2025-04-12 04:27:01] [DEBUG] Fan sensor power value: 71.591182
-[2025-04-12 04:27:02] [DEBUG] Light sensor power value: 24.929910
-[2025-04-12 04:27:05] [DEBUG] Light sensor power value: 24.929910
-[2025-04-12 04:27:06] [DEBUG] Fan sensor power value: 73.920458
-[2025-04-12 04:27:08] [DEBUG] Light sensor power value: 16.217112
-[2025-04-12 04:27:11] [ERROR] AC sensor High: 1908.916308
-[2025-04-12 04:27:11] [ERROR] AC: Possible worn out of the insulation, power surge or ground fault
-[2025-04-12 04:27:11] [DEBUG] Fan sensor power value: 69.049730
-[2025-04-12 04:27:11] [DEBUG] Light sensor power value: 16.184806
-[2025-04-12 04:27:14] [DEBUG] Light sensor power value: 16.184806
-[2025-04-12 04:27:16] [DEBUG] Fan sensor power value: 61.285540
-[2025-04-12 04:27:17] [DEBUG] Light sensor power value: 16.189618
-[2025-04-12 04:27:20] [DEBUG] Light sensor power value: 16.189618
-[2025-04-12 04:27:21] [DEBUG] AC sensor power value: 1554.204837
-[2025-04-12 04:27:21] [ERROR] Fan sensor High: 80.909840
-[2025-04-12 04:27:21] [ERROR] Fan: Possible worn out of the insulation, power surge or ground fault
-[2025-04-12 04:27:23] [DEBUG] Light sensor power value: 23.226472
-[2025-04-12 04:27:26] [DEBUG] Fan sensor power value: 72.653010
-[2025-04-12 04:27:26] [DEBUG] Light sensor power value: 17.896516
-[2025-04-12 04:27:29] [DEBUG] Light sensor power value: 17.896516
-[2025-04-12 04:27:31] [DEBUG] AC sensor power value: 1715.985950
-[2025-04-12 04:27:31] [ERROR] Fan sensor Low: 58.211164
-[2025-04-12 04:27:31] [ERROR] Fan: Possible overload circuit or short circuit
-[2025-04-12 04:27:32] [DEBUG] Light sensor power value: 17.726975
-[2025-04-12 04:27:35] [DEBUG] Light sensor power value: 17.726975
-[2025-04-12 04:27:36] [DEBUG] Fan sensor power value: 66.541236
-[2025-04-12 04:27:38] [DEBUG] Light sensor power value: 17.512752
-[2025-04-12 04:27:41] [DEBUG] AC sensor power value: 1377.010680
-[2025-04-12 04:27:41] [DEBUG] Fan sensor power value: 62.119039
-[2025-04-12 04:27:41] [DEBUG] Light sensor power value: 24.287897
-[2025-04-12 04:27:44] [DEBUG] Light sensor power value: 24.287897
-[2025-04-12 04:27:46] [DEBUG] Fan sensor power value: 71.087233
-[2025-04-12 04:27:47] [ERROR] Light sensor Low: 14.344631
-[2025-04-12 04:27:47] [ERROR] Light: Possible overload circuit or short circuit
-[2025-04-12 04:27:50] [ERROR] Light sensor Low: 14.344631
-[2025-04-12 04:27:50] [ERROR] Light: Possible overload circuit or short circuit
-[2025-04-12 04:27:51] [DEBUG] AC sensor power value: 1524.802438
-[2025-04-12 04:27:51] [DEBUG] Fan sensor power value: 62.749358
-[2025-04-12 04:27:53] [DEBUG] Light sensor power value: 21.024674
-[2025-04-12 04:27:56] [ERROR] Fan sensor Low: 58.941225
-[2025-04-12 04:27:56] [ERROR] Fan: Possible overload circuit or short circuit
-[2025-04-12 04:27:56] [DEBUG] Light sensor power value: 17.491658
-[2025-04-12 04:27:59] [DEBUG] Light sensor power value: 17.491658
-[2025-04-12 04:28:01] [DEBUG] AC sensor power value: 1214.884448
-[2025-04-12 04:28:01] [DEBUG] Fan sensor power value: 67.282286
-[2025-04-12 04:28:02] [DEBUG] Light sensor power value: 17.501510
-[2025-04-12 04:28:05] [DEBUG] Light sensor power value: 17.501510
-[2025-04-12 04:28:06] [DEBUG] Fan sensor power value: 69.712270
-[2025-04-12 04:28:08] [DEBUG] Light sensor power value: 17.519391
-[2025-04-12 04:28:11] [DEBUG] AC sensor power value: 1513.535608
-[2025-04-12 04:28:11] [DEBUG] Fan sensor power value: 72.407834
-[2025-04-12 04:28:11] [DEBUG] Light sensor power value: 17.307863
-[2025-04-12 04:28:14] [DEBUG] Light sensor power value: 17.307863
-[2025-04-12 04:28:16] [DEBUG] Fan sensor power value: 63.602254
-[2025-04-12 04:28:17] [DEBUG] Light sensor power value: 19.061944
-[2025-04-12 04:28:20] [DEBUG] Light sensor power value: 19.061944
-[2025-04-12 04:28:21] [DEBUG] AC sensor power value: 1315.684254
-[2025-04-12 04:28:21] [DEBUG] Fan sensor power value: 65.954706
-[2025-04-12 04:28:23] [DEBUG] Light sensor power value: 15.613457
-[2025-04-12 04:28:26] [DEBUG] Fan sensor power value: 68.486200
-[2025-04-12 04:28:26] [DEBUG] Light sensor power value: 15.530018
-[2025-04-12 04:28:29] [DEBUG] Light sensor power value: 15.530018
-[2025-04-12 04:28:31] [DEBUG] AC sensor power value: 890.553185
-[2025-04-12 04:28:31] [DEBUG] Fan sensor power value: 70.508031
-[2025-04-12 04:28:32] [DEBUG] Light sensor power value: 20.520198
-[2025-04-12 04:28:33] [ERROR] SIGINT (2) received
-[2025-04-12 04:28:33] [ERROR] Exiting...
+[2025-04-12 06:53:29] [ERROR] Welcome to Smart Home
+[2025-04-12 06:53:29] [INFO] Reading AC sensor...
+[2025-04-12 06:53:29] [INFO] Mocking sensor readings...
+[2025-04-12 06:53:29] [INFO] Reading light sensor...
+[2025-04-12 06:53:29] [INFO] Reading fan sensor...
+[2025-04-12 06:53:29] [ERROR] Light sensor Null: 0.000000
+[2025-04-12 06:53:29] [ERROR] Fan sensor NULL: 0.000000
+[2025-04-12 06:53:29] [ERROR] AC sensor Null: 0.000000
+[2025-04-12 06:53:29] [ERROR] AC: Possible disconnection at sensor end
+[2025-04-12 06:53:29] [ERROR] Light: Possible disconnection at sensor end
+[2025-04-12 06:53:29] [ERROR] Fan: Possible disconnection at sensor end
+[2025-04-12 06:53:32] [DEBUG] Light sensor power value: 20.631914
+[2025-04-12 06:53:34] [DEBUG] Fan sensor power value: 67.830976
+[2025-04-12 06:53:35] [DEBUG] Light sensor power value: 15.548950
+[2025-04-12 06:53:38] [DEBUG] Light sensor power value: 15.548950
+[2025-04-12 06:53:39] [DEBUG] AC sensor power value: 1434.579274
+[2025-04-12 06:53:39] [DEBUG] Fan sensor power value: 73.678545
+[2025-04-12 06:53:41] [DEBUG] Light sensor power value: 20.081942
+[2025-04-12 06:53:44] [DEBUG] Fan sensor power value: 65.685880
+[2025-04-12 06:53:44] [DEBUG] Light sensor power value: 18.878009
+[2025-04-12 06:53:47] [DEBUG] Light sensor power value: 18.878009
+[2025-04-12 06:53:49] [DEBUG] AC sensor power value: 1580.739858
+[2025-04-12 06:53:49] [DEBUG] Fan sensor power value: 67.983675
+[2025-04-12 06:53:50] [DEBUG] Light sensor power value: 21.770099
+[2025-04-12 06:53:53] [DEBUG] Light sensor power value: 21.770099
+[2025-04-12 06:53:54] [DEBUG] Fan sensor power value: 66.403026
+[2025-04-12 06:53:56] [DEBUG] Light sensor power value: 23.755795
+[2025-04-12 06:53:59] [DEBUG] AC sensor power value: 1389.617863
+[2025-04-12 06:53:59] [DEBUG] Fan sensor power value: 79.739635
+[2025-04-12 06:53:59] [DEBUG] Light sensor power value: 23.380988
+[2025-04-12 06:54:02] [DEBUG] Light sensor power value: 23.380988
+[2025-04-12 06:54:04] [DEBUG] Fan sensor power value: 71.091459
+[2025-04-12 06:54:05] [DEBUG] Light sensor power value: 16.763374
+[2025-04-12 06:54:08] [DEBUG] Light sensor power value: 16.763374
+[2025-04-12 06:54:09] [DEBUG] AC sensor power value: 1556.696538
+[2025-04-12 06:54:09] [ERROR] Fan sensor High: 84.705656
+[2025-04-12 06:54:09] [ERROR] Fan: Possible worn out of the insulation, power surge or ground fault
+[2025-04-12 06:54:11] [DEBUG] Light sensor power value: 16.758615
+[2025-04-12 06:54:14] [DEBUG] Fan sensor power value: 75.801831
+[2025-04-12 06:54:14] [DEBUG] Light sensor power value: 15.167685
+[2025-04-12 06:54:17] [DEBUG] Light sensor power value: 15.167685
+[2025-04-12 06:54:19] [DEBUG] AC sensor power value: 1106.588299
+[2025-04-12 06:54:19] [DEBUG] Fan sensor power value: 71.117141
+[2025-04-12 06:54:20] [DEBUG] Light sensor power value: 18.627501
+[2025-04-12 06:54:23] [DEBUG] Light sensor power value: 18.627501
+[2025-04-12 06:54:24] [DEBUG] Fan sensor power value: 73.635180
+[2025-04-12 06:54:26] [DEBUG] Light sensor power value: 18.494688
+[2025-04-12 06:54:29] [DEBUG] AC sensor power value: 1380.275202
+[2025-04-12 06:54:29] [DEBUG] Fan sensor power value: 65.405273
+[2025-04-12 06:54:29] [DEBUG] Light sensor power value: 18.412296
+[2025-04-12 06:54:32] [DEBUG] Light sensor power value: 18.412296
+[2025-04-12 06:54:34] [ERROR] Fan sensor High: 85.727454
+[2025-04-12 06:54:34] [ERROR] Fan: Possible worn out of the insulation, power surge or ground fault
+[2025-04-12 06:54:35] [ERROR] Light sensor High: 25.712248
+[2025-04-12 06:54:35] [ERROR] Light: Possible worn out of the insulation, power surge or ground fault
+[2025-04-12 06:54:38] [ERROR] Light sensor High: 25.712248
+[2025-04-12 06:54:38] [ERROR] Light: Possible worn out of the insulation, power surge or ground fault
+[2025-04-12 06:54:39] [DEBUG] AC sensor power value: 1201.092076
+[2025-04-12 06:54:39] [DEBUG] Fan sensor power value: 70.064707
+[2025-04-12 06:54:41] [DEBUG] Light sensor power value: 18.067555
+[2025-04-12 06:54:44] [DEBUG] Fan sensor power value: 67.995591
+[2025-04-12 06:54:44] [DEBUG] Light sensor power value: 19.899580
+[2025-04-12 06:54:47] [DEBUG] Light sensor power value: 19.899580
+[2025-04-12 06:54:49] [DEBUG] AC sensor power value: 1352.248759
+[2025-04-12 06:54:49] [DEBUG] Fan sensor power value: 70.491954
+[2025-04-12 06:54:50] [ERROR] Light sensor Low: 14.947636
+[2025-04-12 06:54:50] [ERROR] Light: Possible overload circuit or short circuit
+[2025-04-12 06:54:53] [ERROR] Light sensor Low: 14.947636
+[2025-04-12 06:54:53] [ERROR] Light: Possible overload circuit or short circuit
+[2025-04-12 06:54:54] [DEBUG] Fan sensor power value: 76.778074
+[2025-04-12 06:54:56] [DEBUG] Light sensor power value: 16.507655
+[2025-04-12 06:54:59] [DEBUG] AC sensor power value: 1039.704594
+[2025-04-12 06:54:59] [DEBUG] Fan sensor power value: 68.558087
+[2025-04-12 06:54:59] [DEBUG] Light sensor power value: 21.278575
+[2025-04-12 06:55:02] [DEBUG] Light sensor power value: 21.278575
+[2025-04-12 06:55:04] [DEBUG] Fan sensor power value: 63.716504
+[2025-04-12 06:55:05] [ERROR] Light sensor High: 25.681282
+[2025-04-12 06:55:05] [ERROR] Light: Possible worn out of the insulation, power surge or ground fault
+[2025-04-12 06:55:08] [ERROR] Light sensor High: 25.681282
+[2025-04-12 06:55:08] [ERROR] Light: Possible worn out of the insulation, power surge or ground fault
+[2025-04-12 06:55:09] [DEBUG] AC sensor power value: 1323.054687
+[2025-04-12 06:55:09] [ERROR] Fan sensor Low: 56.552339
+[2025-04-12 06:55:09] [ERROR] Fan: Possible overload circuit or short circuit
+[2025-04-12 06:55:11] [ERROR] Light sensor High: 25.432410
+[2025-04-12 06:55:11] [ERROR] Light: Possible worn out of the insulation, power surge or ground fault
+[2025-04-12 06:55:14] [DEBUG] Fan sensor power value: 75.551264
+[2025-04-12 06:55:14] [DEBUG] Light sensor power value: 19.861713
+[2025-04-12 06:55:17] [DEBUG] Light sensor power value: 19.861713
+[2025-04-12 06:55:19] [DEBUG] AC sensor power value: 1005.078564
+[2025-04-12 06:55:19] [DEBUG] Fan sensor power value: 70.159107
+[2025-04-12 06:55:20] [ERROR] Light sensor Low: 14.717023
+[2025-04-12 06:55:20] [ERROR] Light: Possible overload circuit or short circuit
+[2025-04-12 06:55:23] [ERROR] Light sensor Low: 14.717023
+[2025-04-12 06:55:23] [ERROR] Light: Possible overload circuit or short circuit
+[2025-04-12 06:55:24] [DEBUG] Fan sensor power value: 72.393278
+[2025-04-12 06:55:26] [ERROR] Light sensor Low: 14.644906
+[2025-04-12 06:55:26] [ERROR] Light: Possible overload circuit or short circuit
+[2025-04-12 06:55:29] [DEBUG] AC sensor power value: 1789.956695
+[2025-04-12 06:55:29] [DEBUG] Fan sensor power value: 64.858707
+[2025-04-12 06:55:29] [DEBUG] Light sensor power value: 16.313703
+[2025-04-12 06:55:32] [DEBUG] Light sensor power value: 16.313703
+[2025-04-12 06:55:34] [DEBUG] Fan sensor power value: 63.862363
+[2025-04-12 06:55:35] [DEBUG] Light sensor power value: 21.121992
+[2025-04-12 06:55:38] [DEBUG] Light sensor power value: 21.121992
+[2025-04-12 06:55:39] [DEBUG] AC sensor power value: 1451.552675
+[2025-04-12 06:55:39] [DEBUG] Fan sensor power value: 69.081818
+[2025-04-12 06:55:41] [DEBUG] Light sensor power value: 23.055862
+[2025-04-12 06:55:44] [DEBUG] Fan sensor power value: 61.524783
+[2025-04-12 06:55:44] [ERROR] Light sensor High: 25.172785
+[2025-04-12 06:55:44] [ERROR] Light: Possible worn out of the insulation, power surge or ground fault
+[2025-04-12 06:55:47] [ERROR] Light sensor High: 25.172785
+[2025-04-12 06:55:47] [ERROR] Light: Possible worn out of the insulation, power surge or ground fault
+[2025-04-12 06:55:49] [DEBUG] AC sensor power value: 1129.838989
+[2025-04-12 06:55:49] [ERROR] Fan sensor High: 81.284667
+[2025-04-12 06:55:49] [ERROR] Fan: Possible worn out of the insulation, power surge or ground fault
+[2025-04-12 06:55:50] [DEBUG] Light sensor power value: 24.807978
+[2025-04-12 06:55:53] [DEBUG] Light sensor power value: 24.807978
+[2025-04-12 06:55:54] [DEBUG] Fan sensor power value: 72.795517
+[2025-04-12 06:55:56] [ERROR] Light sensor High: 27.000241
+[2025-04-12 06:55:56] [ERROR] Light: Possible worn out of the insulation, power surge or ground fault
+[2025-04-12 06:55:59] [DEBUG] AC sensor power value: 1744.649179
+[2025-04-12 06:55:59] [ERROR] Fan sensor Low: 58.279773
+[2025-04-12 06:55:59] [ERROR] Fan: Possible overload circuit or short circuit
+[2025-04-12 06:55:59] [DEBUG] Light sensor power value: 21.239908
+[2025-04-12 06:56:02] [DEBUG] Light sensor power value: 21.239908
+[2025-04-12 06:56:02] [ERROR] SIGINT (2) received
+[2025-04-12 06:56:02] [ERROR] Exiting...
 
 
