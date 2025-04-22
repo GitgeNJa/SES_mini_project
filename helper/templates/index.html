@@ -1,62 +1,50 @@
-html
-CopyEdit
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Light Sensor Data</title>
-    <style>
-        body { font-family: Arial, sans-serif; text-align: center; background-color: #f4f4f4; }
-        h1 { color: #333; }
-        .data-box { background: white; padding: 20px; margin: 20px auto; width: 50%; border-radius: 10px; box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); }
-        table { width: 100%; border-collapse: collapse; }
-        th, td { padding: 10px; border-bottom: 1px solid #ddd; }
-        th { background: #333; color: white; }
-    </style>
+    <title>Smart Home Dashboard</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
 </head>
 <body>
-    <h1>Light Sensor Data</h1>
-    <div class="data-box">
-        <table>
-            <tr>
-                <th>Light (Watt)</th>
-            </tr>
-            {% for entry in data %}
-            <tr>
-                <td>{{ entry }}</td>
-            </tr>
-            {% endfor %}
-        </table>
+    <h1>Smart Home Control Panel</h1>
+    <div class="container">
+        {% for device_id, sensor in sensors.items() %}
+            <div class="tile" onclick="window.location.href='{{ url_for('show_sensor_detail', device_id=device_id) }}'" style="background-image: url('{{ url_for('static', filename=sensor.icon) }}');">
+                <div class="overlay"></div>
+                <div class="content">
+                    <div class="device-name">{{ sensor.name }}</div>
+                    <label class="switch" onclick="event.stopPropagation();">
+                        <!-- Set the default state of the checkbox based on the device state from the database -->
+                        <input type="checkbox" 
+                               {% if device_states[device_id] == 'on' %}checked{% endif %}
+                               onchange="toggleDevice({{ device_id }}, this.checked)">
+                        <span class="slider"></span>
+                    </label>
+                    <!-- Values are now placed in a 'values' div which is pushed to the bottom -->
+                    <div class="values">
+                        <div class="data current">Current: {{ data[device_id].current }} W</div>
+                        <div class="data avg">Average: {{ data[device_id].avg }} W</div>
+                        <div class="data max">Max: {{ data[device_id].max }} W</div>
+                    </div>
+                </div>
+            </div>
+        {% endfor %}
     </div>
-    <h1>Fan Sensor Data</h1>
-        <div class="data-box">
-            <table>
-                <tr>
-                    <th>Fan (Watt)</th>
-                </tr>
-                {% for entry in data %}
-                <tr>
-                    <td>{{ entry }}</td>
-                </tr>
-                {% endfor %}
-            </table>
-        </div>
-    <h1>AC Sensor Data</h1>
-        <div class="data-box">
-            <table>
-                <tr>
-                    <th>AC (Watt)</th>
-                </tr>
-                {% for entry in data %}
-                <tr>
-                    <td>{{ entry }}</td>
-                </tr>
-                {% endfor %}
-            </table>
-        </div>
+
     <script>
-        setInterval(() => { location.reload(); }, 2000); // Auto-refresh every 2 seconds
+        function toggleDevice(deviceId, state) {
+            fetch("/toggle", {
+                method: "POST",
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify({ device_id: deviceId, state: state })
+            })
+            .then(response => response.json())
+            .then(data => console.log("Toggled:", data))
+            .catch(err => console.error("Toggle failed", err));
+        }
     </script>
 </body>
 </html>

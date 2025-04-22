@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>{{ sensor.name }} Details</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <style>
+        body {
+            background-color: #0e0e10;
+            color: #ffffff;
+            font-family: 'Segoe UI', Roboto, Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: flex-start;
+            min-height: 100vh;
+            padding-top: 60px;
+        }
+
+        .sensor-detail {
+            background: linear-gradient(145deg, #1a1a1d, #0f0f11);
+            box-shadow: 0 12px 30px rgba(0, 0, 0, 0.5);
+            border-radius: 16px;
+            padding: 30px;
+            width: 90%;
+            max-width: 850px;
+            text-align: center;
+            animation: fadeIn 0.6s ease-in-out;
+        }
+
+        .back-btn {
+            position: fixed;
+            top: 20px;
+            left: 20px;
+            background: linear-gradient(135deg, #6a11cb, #2575fc);
+            color: #fff;
+            border: none;
+            padding: 12px 26px;
+            font-size: 16px;
+            font-weight: 600;
+            cursor: pointer;
+            border-radius: 32px;
+            box-shadow: 0 8px 20px rgba(101, 101, 255, 0.4);
+            transition: all 0.3s ease;
+            z-index: 999;
+        }
+
+        .back-btn:hover {
+            transform: translateY(-3px);
+            background: linear-gradient(135deg, #5a0fc8, #1f65f2);
+            box-shadow: 0 10px 24px rgba(101, 101, 255, 0.6);
+        }
+
+        h1 {
+            font-size: 2.2rem;
+            color: #00FFF0;
+            margin-bottom: 25px;
+        }
+
+        .status-container {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            margin-bottom: 30px;
+        }
+
+        .status {
+            padding: 12px 26px;
+            border-radius: 50px;
+            font-size: 1.2rem;
+            font-weight: bold;
+            letter-spacing: 1px;
+            box-shadow: 0 4px 14px rgba(0,0,0,0.3);
+            text-transform: uppercase;
+            margin-bottom: 10px;
+        }
+
+        .status.on {
+            background-color: #28a745;
+            color: #fff;
+        }
+
+        .status.off {
+            background-color: #dc3545;
+            color: #fff;
+        }
+
+        .summary {
+            font-size: 1.1rem;
+            color: #ccc;
+        }
+
+        .summary span {
+            margin: 0 12px;
+            color: #00FFF0;
+            font-weight: 600;
+        }
+
+        .summary span:last-child {
+            color: #FF7F50;
+        }
+
+        canvas {
+            margin-top: 30px;
+            background-color: #1f1f21;
+            border-radius: 12px;
+            padding: 20px;
+            box-shadow: 0 6px 18px rgba(0, 255, 200, 0.15);
+        }
+
+        .toggle-btn {
+            background-color: #00FFF0;
+            color: #1a1a1d;
+            border: none;
+            padding: 12px 24px;
+            font-size: 1.1rem;
+            font-weight: bold;
+            border-radius: 8px;
+            cursor: pointer;
+            margin-top: 20px;
+            transition: all 0.3s ease;
+        }
+
+        .toggle-btn:hover {
+            transform: translateY(-3px);
+            background-color: #00e6c4;
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(15px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+    </style>
+</head>
+<body class="vscode-dark">
+    <button onclick="window.location.href='{{ url_for('index') }}'" class="back-btn">&#8592; Back</button>
+
+    <div class="sensor-detail">
+        <h1>{{ sensor.name }} Usage</h1>
+
+        <div class="status-container">
+            <div class="status {{ 'on' if device_state == 'on' else 'off' }}">
+                {{ 'ON' if device_state == 'on' else 'OFF' }}
+            </div>
+            <div class="summary">
+                <span>Average: {{ data.avg }} W</span>
+                <span>Max: {{ data.max }} W</span>
+            </div>
+        </div>
+
+        <canvas id="sensorChart"></canvas>
+
+        <!-- Toggle Button for Graph Type -->
+        <button class="toggle-btn" onclick="toggleGraph()">Switch to Peak Usage</button>
+    </div>
+
+    <script>
+        let isPeakGraph = false;  // Track which graph is being displayed
+        const ctx = document.getElementById('sensorChart').getContext('2d');
+        
+        const currentGraphData = {
+            labels: {{ graph_labels | tojson }},
+            datasets: [{
+                label: '{{ sensor.name }} Power Consumption',
+                data: {{ graph_values | tojson }},
+                borderColor: 'rgba(0, 255, 200, 0.9)',
+                backgroundColor: 'rgba(0, 255, 200, 0.15)',
+                tension: 0.45,
+                fill: true,
+                pointRadius: 3,
+                pointHoverRadius: 6,
+            }]
+        };
+
+        const peakGraphData = {
+            labels: {{ peak_labels | tojson }},
+            datasets: [{
+                label: 'Peak Power Usage',
+                data: {{ peak_values | tojson }},
+                borderColor: 'rgba(255, 87, 34, 0.9)',
+                backgroundColor: 'rgba(255, 87, 34, 0.15)',
+                tension: 0.45,
+                fill: true,
+                pointRadius: 3,
+                pointHoverRadius: 6,
+            }]
+        };
+
+        let chart = new Chart(ctx, {
+            type: 'line',
+            data: currentGraphData,
+            options: {
+                responsive: true,
+                plugins: {
+                    legend: {
+                        labels: {
+                            color: '#ffffff',
+                            font: {
+                                size: 14,
+                                weight: 'bold'
+                            }
+                        }
+                    }
+                },
+                scales: {
+                    x: {
+                        ticks: {
+                            color: '#bbb'
+                        },
+                        grid: {
+                            color: 'rgba(255, 255, 255, 0.05)'
+                        }
+                    },
+                    y: {
+                        ticks: {
+                            color: '#bbb'
+                        },
+                        grid: {
+                            color: 'rgba(255, 255, 255, 0.05)'
+                        }
+                    }
+                }
+            }
+        });
+
+        function toggleGraph() {
+            isPeakGraph = !isPeakGraph;
+            chart.data = isPeakGraph ? peakGraphData : currentGraphData;
+            chart.update();
+            document.querySelector('.toggle-btn').textContent = isPeakGraph ? "Switch to Power Consumption" : "Switch to Peak Usage";
+        }
+    </script>
+</body>
+</html>

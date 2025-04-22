@@ -3,5 +3,6 @@
 
 #include "threading.h"
 #include "exit_app.h"
+#include "db.h"
 
 #endif

@@ -1,0 +1,146 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: #1e1e1e; /* VSCode dark background */
+    color: #d4d4d4; /* Light text color for contrast */
+    margin: 0;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    color: #66d9ef; /* VSCode accent blue color */
+    font-size: 36px;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.tile {
+    position: relative;
+    width: 250px;
+    height: 250px;
+    border-radius: 12px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.25);
+    background-size: cover;
+    background-position: center;
+    color: white;
+    overflow: hidden;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    transition: transform 0.3s ease-in-out;
+    background-color: #2e2e2e; /* Tile background to match dark mode */
+}
+
+.tile:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3);
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.4); /* dark transparent overlay */
+}
+
+.content {
+    position: relative;
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.device-name {
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+
+/* Styling for the values */
+.values {
+    margin-top: auto; /* Push the values to the bottom */
+    padding-top: 10px;
+}
+
+.data {
+    font-size: 16px;
+    font-weight: 600;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.7);
+    padding: 5px 10px;
+    border-radius: 12px;
+    display: inline-block;
+    margin-bottom: 8px;
+    color: black; /* Text color set to black */
+}
+
+.data.current {
+    background-color: rgba(255, 184, 108, 0.6); /* Yellowish-orange background */
+}
+
+.data.avg {
+    background-color: rgba(139, 233, 253, 0.6); /* Light cyan background */
+}
+
+.data.max {
+    background-color: rgba(255, 85, 85, 0.6); /* Red background */
+}
+
+/* Toggle switch */
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 50px;
+    height: 28px;
+}
+
+.switch input {
+    display: none;
+}
+
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0; left: 0;
+    right: 0; bottom: 0;
+    background-color: #ccc;
+    transition: .4s;
+    border-radius: 28px;
+}
+
+.slider:before {
+    position: absolute;
+    content: "";
+    height: 20px;
+    width: 20px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    transition: .4s;
+    border-radius: 50%;
+}
+
+input:checked + .slider {
+    background-color: #50fa7b; /* VSCode green for active state */
+}
+
+input:checked + .slider:before {
+    transform: translateX(22px);
+}
+
+/* Elegant hover effects on the switch */
+.slider:hover {
+    background-color: #69e09c;
+}
